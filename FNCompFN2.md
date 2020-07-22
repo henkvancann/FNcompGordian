@@ -1,16 +1,22 @@
-## What is this?
-This table offers **a comparison of the differences and similarities of FN and FN2**, as far as objectives, features & functionality are concerned.
 
-## Why relevant?
-Although the names are very similar, FN and FN2, their objectives are different. FN2 will get another name soon. Anyway, to have a structured overview of the differences and similarities on various topics is far from a *"unnecessary luxury"*.
+# Comparison FN and FN2
+
+**A comparison of the differences and similarities of [FN](https://github.com/Fonta1n3/FullyNoded) and [FN2](https://github.com/BlockchainCommons/FullyNoded-2)**
+
+# Similarities
 
 Both complement each other. The holy grail of bitcoin secure storage is multisig and not having to rely on one app/device/codebase/etc, both are capable of multisig and **can be independent signers for the same multisig wallet**.
+
+# Differences
+TBW
+
 
 | Feature / topic                  | Fully Noded                                 | FN2                                      | Implication                                       |
 | ---------------------------------| --------------------------------------------| -----------------------------------------| --------------------------------------------------| 
 | ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2***                 | Decentralised Identity creation, Signing & Backup |
 | Utilizes Apple 2FA               | No                                          | Yes                                      | TBW                                               |
 | Icloud integration               | No                                          | Yes                                      | Icould for atrributes, DID Documents, Virtual Credentials?                      |
+| Account xprv can be synced to icloud | No                                        | Yes                                       |On FN its stored on the local keychain (secure enclave) only   |
 | Does accounting                  | No                                          | Yes                                      | Users of FN2 are pseudonymous                     |
 | Signs psbt with                  | Root xprv                                   | Account based xprvs                      | TBW                                               |
 | Multisig wallet creation         | By hand using FN                            | Automated                                | TBW                                               |
