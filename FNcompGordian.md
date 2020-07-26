@@ -3,7 +3,7 @@
 
 **A comparison of the differences and similarities of [Fully Noded](https://github.com/Fonta1n3/FullyNoded) and [Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)**, formerly known as FN2
 
-[]@Fonta1n3](https://github.com/Fonta1n3), the creator of both FN and Gordian Wallet, said it pretty straightforward when the question *What’s the difference between version FN1 and FN2?* was raised the first time in 2020: <br/>
+[@Fonta1n3](https://github.com/Fonta1n3), the creator of both FN and Gordian Wallet, said it pretty straightforward when the question *What’s the difference between version FN1 and FN2?* was raised the first time in 2020: <br/>
 
 **"Gordian is a wallet, Fully Noded is a remote control for your node"**
 
