@@ -1,7 +1,13 @@
 
-# Comparison FN and FN2
+# Comparison FN and Gordian Wallet
 
-**A comparison of the differences and similarities of [FN](https://github.com/Fonta1n3/FullyNoded) and [FN2](https://github.com/BlockchainCommons/FullyNoded-2)**
+**A comparison of the differences and similarities of [Fully Noded](https://github.com/Fonta1n3/FullyNoded) and [Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)**, formerly known as FN2
+
+[]@Fonta1n3](https://github.com/Fonta1n3), the creator of both FN and Gordian Wallet, said it pretty straightforward when the question *What’s the difference between version FN1 and FN2?* was raised the first time in 2020: <br/>
+
+**"Gordian is a wallet, Fully Noded is a remote control for your node"**
+
+We'll go into much more detail of the comparison by introducing other wallets to compare with: <TBW>
 
 # Similarities
 
@@ -11,8 +17,11 @@ Both complement each other. The holy grail of bitcoin secure storage is multisig
 TBW
 
 
-| Feature / topic                  | Fully Noded                                 | FN2                                      | Implication                                       |
+| Feature / topic                  | Fully Noded                                 | Gordian Wallet                           | Implication                                       |
 | ---------------------------------| --------------------------------------------| -----------------------------------------| --------------------------------------------------| 
+| ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***                 |                     |
+| Open source               | Yes                                         | Yes                                      | free, donations welcome                                          |
+| License                   | [GPLv3](https://github.com/Fonta1n3/FullyNoded/blob/master/LICENSE.md)                                         | [BSD-2](https://github.com/BlockchainCommons/GordianWallet-iOS/blob/master/LICENSE)                      |                                          |
 | ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2***                 | Decentralised Identity creation, Signing & Backup |
 | Utilizes Apple 2FA               | No                                          | Yes                                      | TBW                                               |
 | Icloud integration               | No                                          | Yes                                      | Icould for atrributes, DID Documents, Virtual Credentials?                      |
@@ -22,5 +31,6 @@ TBW
 | Multisig wallet creation         | By hand using FN                            | Automated                                | TBW                                               |
 | Uses hot wallets on your node    | Yes                                         | No                                       | TBW                                               |
 | **Type of wallet**               | **Multi-purpose for power user**            | **Dedicated, with ease of use in mind**  | Very different wallets, FN2 is a bad name         |
+| Difference                       | a remote control for your node              | a wallet                                 |                                               |
 | Import                           | Anything                                    | Limited                                  | TBW                                               |
 | Node wallet access               | All                                         | Only allows access to FN2 wallets        | TBW                                               |
