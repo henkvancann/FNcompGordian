@@ -26,11 +26,11 @@ TBW
 | Utilizes Apple 2FA               | No                                          | Yes                                      | TBW                                               |
 | Icloud integration               | No                                          | Yes                                      | Icould for atrributes, DID Documents, Virtual Credentials?                      |
 | Account xprv can be synced to icloud | No                                        | Yes                                       |On FN its stored on the local keychain (secure enclave) only   |
-| Does accounting                  | No                                          | Yes                                      | Users of FN2 are pseudonymous                     |
+| Does accounting                  | No                                          | Yes                                      | Users of Gordian are pseudonymous                     |
 | Signs psbt with                  | Root xprv                                   | Account based xprvs                      | TBW                                               |
 | Multisig wallet creation         | By hand using FN                            | Automated                                | TBW                                               |
 | Uses hot wallets on your node    | Yes                                         | No                                       | TBW                                               |
-| **Type of wallet**               | **Multi-purpose for power user**            | **Dedicated, with ease of use in mind**  | Very different wallets, FN2 is a bad name         |
+| **Type of wallet**               | **Multi-purpose for power user**            | **Dedicated, with ease of use in mind**  |                                                   |
 | Difference                       | a remote control for your node              | a wallet                                 |                                               |
 | Import                           | Anything                                    | Limited                                  | TBW                                               |
-| Node wallet access               | All                                         | Only allows access to FN2 wallets        | TBW                                               |
+| Node wallet access               | All                                         | Only allows access to Gordian wallets        | TBW                                               |
