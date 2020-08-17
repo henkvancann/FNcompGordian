@@ -17,20 +17,28 @@ Both complement each other. The holy grail of bitcoin secure storage is multisig
 TBW
 
 
-| Feature / topic                  | Fully Noded                                 | Gordian Wallet                           | Implication                                       |
-| ---------------------------------| --------------------------------------------| -----------------------------------------| --------------------------------------------------| 
-| ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***                 |                     |
-| Open source               | Yes                                         | Yes                                      | free, donations welcome                                          |
-| License                   | [GPLv3](https://github.com/Fonta1n3/FullyNoded/blob/master/LICENSE.md)                                         | [BSD-2](https://github.com/BlockchainCommons/GordianWallet-iOS/blob/master/LICENSE)                      |                                          |
-| ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2***                 | Decentralised Identity creation, Signing & Backup |
-| Utilizes Apple 2FA               | No                                          | Yes                                      | TBW                                               |
-| Icloud integration               | No                                          | Yes                                      | Icould for atrributes, DID Documents, Virtual Credentials?                      |
-| Account xprv can be synced to icloud | No                                        | Yes                                       |On FN its stored on the local keychain (secure enclave) only   |
-| Does accounting                  | No                                          | Yes                                      | Users of Gordian are pseudonymous                     |
-| Signs psbt with                  | Root xprv                                   | Account based xprvs                      | TBW                                               |
-| Multisig wallet creation         | By hand using FN                            | Automated                                | TBW                                               |
-| Uses hot wallets on your node    | Yes                                         | No                                       | TBW                                               |
-| **Type of wallet**               | **Multi-purpose for power user**            | **Dedicated, with ease of use in mind**  |                                                   |
-| Difference                       | a remote control for your node              | a wallet                                 |                                               |
-| Import                           | Anything                                    | Limited                                  | TBW                                               |
-| Node wallet access               | All                                         | Only allows access to Gordian wallets        | TBW                                               |
+| Feature / topic                  | Fully Noded                             | Gordian Wallet                           | Wasabi Wallet                           | Samourai Wallet                           | Implication   |
+| Feature / topic                  | Fully Noded                             | Gordian Wallet                           | Implication   |
+
+| ---------------------------------| ----------------------------------------| -------------------------------------| ----------------------------------------| ----------------------------------------| ----------------| 
+| ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***                 |||                     |
+| Open source               | Yes                                     | Yes                                      ||| free, donations welcome                                          |
+| License                   | [GPLv3](https://github.com/Fonta1n3/FullyNoded/blob/master/LICENSE.md)                                         | [BSD-2](https://github.com/BlockchainCommons/GordianWallet-iOS/blob/master/LICENSE)                      |                                          |||
+| ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2***                 ||| Decentralised Identity creation, Signing & Backup |
+| Utilizes Apple 2FA               | No                                      | Yes                                      ||| TBW                                               |
+| Icloud integration               | No                                      | Yes                                      ||| Icould for atrributes, DID Documents, Virtual Credentials?                      |
+| Account xprv can be synced to icloud | No                                   | Yes                                       |||On FN its stored on the local keychain (secure enclave) only   |
+| Does accounting                  | No                                      | Yes                                      ||| Users of Gordian are pseudonymous                     |
+| Signs psbt with                  | Root xprv                               | Account based xprvs                      ||| TBW                                               |
+| Multisig wallet creation         | By hand using FN                        | Automated                                ||| TBW                                               |
+| Uses hot wallets on your node    | Yes                                     | No                                       ||| TBW                                               |
+| **Type of wallet**               | **Multi-purpose for power user**        | **Dedicated, with ease of use in mind**  |||                                                   |
+| Difference                       | a remote control for your node          | a wallet                                 |||                                               |
+| Import                           | Anything                                | Limited                                  ||| TBW                                               |
+| Node wallet access               | All                                     | Only allows access to Gordian wallets        ||| TBW                                               |
+| Mix or coinjoin               | No                                     | No        | TBW                                               |||
+| Pricing mechanism               | Donations                                     | Donations        |Expensive to be safe|| TBW                                               |
+| Coordinator to be trusted               | No                                     | No        |No|Yes|TBW                                               |
+| Central servers               | No                                     | No        |No|Yes| TBW                                               |
+| XXXXX               | X                                     | X        ||| TBW                                               |
+
