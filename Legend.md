@@ -72,6 +72,7 @@ Is the wallet compatible with hardware wallets? If so, which hardware wallets: T
 * Import
 * Node wallet access: Trusted nodes
 * Mix or coinjoin
+Broadly speaking, coin mixing could refer to any activity that involves the obfuscation of funds by substituting them with others. However, in the cryptocurrency space, coin mixing commonly denotes a service provided by a third-party. Typically,  the service providers take users’ coins (and a small fee), and return coins that have no link to the sent ones. These services are also known as tumblers or mixers.
 CoinJoin is a trustless method for combining multiple Bitcoin payments from multiple spenders into a single transaction to make it more difficult for outside parties to determine which spender paid which recipient or recipients. Unlike many other privacy solutions, coinjoin transactions do not require a modification to the bitcoin protocol.
 * Pricing mechanism
 * Coordinator to be trusted
