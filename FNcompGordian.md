@@ -22,6 +22,7 @@ TBW
 | ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***             |||                     |
 | Open source               | Yes                                     | Yes                                      ||| free, donations welcome                                          |
 | License                   | [GPLv3](https://github.com/Fonta1n3/FullyNoded/blob/master/LICENSE.md)                                         | [BSD-2](https://github.com/BlockchainCommons/GordianWallet-iOS/blob/master/LICENSE)                  |                                          |||
+| Coordinator to be trusted               | No                                     | No        |No|Yes|TBW                                               |
 | ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2***             ||| Decentralised Identity creation, Signing & Backup |
 | Utilizes Apple 2FA               | No                                      | Yes                                  ||| TBW                                               |
 | Icloud integration               | No                                      | Yes                                  ||| Icould for atrributes, DID Documents, Virtual Credentials?                      |
@@ -36,6 +37,6 @@ TBW
 | Node wallet access               | All                                     | Only allows access to Gordian wallets    ||| TBW                                               |
 | Mix or coinjoin               | No                                     | No        | TBW                                           |||
 | Pricing mechanism               | Donations                                     | Donations        |Expensive to be safe|| TBW                                               |
-| Coordinator to be trusted               | No                                     | No        |No|Yes|TBW                                               |
 | Central servers               | No                                     | No        |No|Yes| TBW                                               |
 | XXXXX               | X                                     | X        ||| TBW                                               |
+| ***Technical***                        | ***build from source***   | ***executable***             ||| 
