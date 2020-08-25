@@ -56,6 +56,7 @@ Copyleft software licenses are considered protective or reciprocal in contrast w
 * Uses hot wallets on your node
 
 ### Type of wallet
+<<<<<<< HEAD
 * Difference
 * Import
 * Node wallet access
@@ -64,3 +65,7 @@ Copyleft software licenses are considered protective or reciprocal in contrast w
 * Coordinator to be trusted
 * Central servers
 * XXXX
+
+### Technical
+ *  Coinjoin mixing - Samurai Wallet has disclosed a couple of Wasabi vulnerabilities. Essentially, the coinjoin mixing for Wasabi cancels itself out if done consecutively. There are some assumptions in the coinjoin code that unfortunately make mixing vulnerable to disclosure. There's some tensions between the two companies which has been ongoing for some time. That said, the competition between them seems to have created better products for both of them.
+>>>>>>> ce5a6d0f709bcd45633218c328a66cc8ddc9db13
