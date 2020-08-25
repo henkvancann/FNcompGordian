@@ -4,6 +4,10 @@
 
 ### General
 
+* Ownership
+Describe ownership structure and developers.
+
+
 * Open Source
 Answer with Yes/No. 
 Open-source software releases source code under a license in which the copyright holder grants users the rights to use, study, change, and distribute the software to anyone and for any purpose. Open-source software may be developed in a collaborative public manner.
@@ -51,10 +55,14 @@ Copyleft software licenses are considered protective or reciprocal in contrast w
 * Uses hot wallets on your node
 
 ### Type of wallet
-* Desktop: OSX / Windows / Linux
-* Mobile: IOS / Android
+* Desktop:
+Is the wallet available as a desktop version? If so, what operatinng systems are supported (OSX / Windows / Linux)? Are there any minimum specifications concerning versions and developer frameworks.
+* Mobile:
+Is the wallet available as a mobile version? If so, for what devices and operating systems (IOS / Android)?. Are there any minimum requirements for the devices or operating systems?
 * Docker
-* Hardware wallets: Trezor / Ledger / Cold Card / Bit Box / Others
+Is the wallet available as (part of) a self hosted Docker based suite of software.
+* Hardware wallets:
+Is the wallet compatible with hardware wallets? If so, which hardware wallets: Trezor / Ledger / Cold Card / Bit Box / Others?
 * Difference
 * Import
 * Node wallet access
