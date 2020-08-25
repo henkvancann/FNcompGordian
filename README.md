@@ -11,4 +11,4 @@ The creator of FullyNoded, @Fonta1n3, develops and maintains both iOS apps. Gord
 
 ## Objective?
 This analysis provides an overview of the most advanced wallets, their funcionality, strengths and weaknesses.
-Erwin voegt nog een stukje toe!!!!
+Erwin voegt nog, maar Henk metselt al erdoor heen.
