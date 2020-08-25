@@ -19,18 +19,19 @@ TBW
 
 | Feature / topic                  | Fully Noded                             | Gordian Wallet                       | Wasabi Wallet                           | Samourai Wallet                           | Implication   |
 | ---------------------------------| ----------------------------------------| -------------------------------------| ----------------------------------------| ----------------------------------------| ----------------| 
-| ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***             |||                     |
-| Open source               | Yes                                     | Yes                                      ||| free, donations welcome                                          |
-| License                   | [GPLv3](https://github.com/Fonta1n3/FullyNoded/blob/master/LICENSE.md)                                         | [BSD-2](https://github.com/BlockchainCommons/GordianWallet-iOS/blob/master/LICENSE)                  |                                          |||
+| ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***             |***owned by zkSNACKs***|***owned by Katana Cryptographic***   ||
+| Open Source License  | [GPLv3](https://github.com/Fonta1n3/FullyNoded/blob/master/LICENSE.md)                                         | [BSD-2](https://github.com/BlockchainCommons/GordianWallet-iOS/blob/master/LICENSE)                  | [MIT](https://github.com/zkSNACKs/WalletWasabi/blob/master/LICENSE.md)                                |[Unlicense](https://github.com/Samourai-Wallet/samourai-wallet-android/blob/develop/LICENSE)     ||
 | Coordinator to be trusted               | No                                     | No        |No|Yes|TBW                                               |
+| Bitcoin Core Node             |                                      |         ||| 
 | ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2***             ||| Decentralised Identity creation, Signing & Backup |
-| Utilizes Apple 2FA               | No                                      | Yes                                  ||| TBW                                               |
-| Icloud integration               | No                                      | Yes                                  ||| Icould for atrributes, DID Documents, Virtual Credentials?                      |
+| Utilizes 2FA               | No                                      | Yes                                  ||| TBW                                               |
+| Cloud integration               | No                                      | Icloud                                  ||| Icould for atrributes, DID Documents, Virtual Credentials?                      |
 | Account xprv can be synced to icloud | No                                   | Yes                                   |||On FN its stored on the local keychain (secure enclave) only   |
 | Does accounting                  | No                                      | Yes                                  ||| Users of Gordian are pseudonymous                     |
 | Signs psbt with                  | Root xprv                               | Account based xprvs                  ||| TBW                                               |
 | Multisig wallet creation         | By hand using FN                        | Automated                            ||| TBW                                               |
 | Uses hot wallets on your node    | Yes                                     | No                                   ||| TBW                                               |
+| Developer community                  | One lead | One lead | | || 
 | **Type of wallet**               | **Multi-purpose for power user**        | **Dedicated, with ease of use in mind**  |||                                                   |
 | Difference                       | a remote control for your node          | a wallet                             |||                                               |
 | Import                           | Anything                                | Limited                              ||| TBW                                               |
@@ -38,6 +39,20 @@ TBW
 | Mix or coinjoin               | No                                     | No        | TBW                                           |||
 | Pricing mechanism               | Donations                                     | Donations        |Expensive to be safe|| TBW                                               |
 | Central servers               | No                                     | No        |No|Yes| TBW                                               |
-| XXXXX               | X                                     | X        ||| TBW                                               |
+| Spectrum of privacy measures       | Tor V3, Unique addr                                    | Tor V3, Unique addr    |Coinjoin |Coinjoin | |TBW                                               |
+| **Feature / topic**                  | **Fully Noded**                             | **Gordian Wallet**                       | **Wasabi Wallet**                           | **Samourai Wallet**                           | **Implication**  |
+| ***Hardware wallet integration***     |    |          |||
+| Trezor               |                                     |        ||| 
+| Ledger               |                                     |        ||| 
+| Keepkey               |                                     |        ||| 
+| Coldcard               |                                     |        ||| 
+| Bitbox               |                                     |        ||| 
+| ***Node connection***     |    |          |||
+| Bitcoin Core Node        | Yes              | Gordian Server  ||| 
+| Nodl             |                                      |         ||| 
+| Raspiblitz             |                                      |         || 
+| Embassy             |                                      |         ||| 
+| myNode             |                                      |         ||| 
 | ***Technical***                        | ***build from source***   | ***executable***             |||
+| Lightning Enabled             | Yes                          |         ||| 
 | Coinjoin mixing vulnerability  | n.a.|n.a.| cancels itself out if done consecutively and leaks private data| no such vulnerability present|
