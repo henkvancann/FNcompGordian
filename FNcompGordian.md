@@ -39,4 +39,5 @@ TBW
 | Pricing mechanism               | Donations                                     | Donations        |Expensive to be safe|| TBW                                               |
 | Central servers               | No                                     | No        |No|Yes| TBW                                               |
 | XXXXX               | X                                     | X        ||| TBW                                               |
-| ***Technical***                        | ***build from source***   | ***executable***             ||| 
+| ***Technical***                        | ***build from source***   | ***executable***             |||
+| Coinjoin mixing vulnerability  | n.a.|n.a.| cancels itself out if done consecutively and leaks private data| no such vulnerability present|

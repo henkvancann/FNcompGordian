@@ -1,5 +1,7 @@
 # Legend of Features / Topics
 
+---
+
 ### General
 
 * Open Source
@@ -38,6 +40,10 @@ Copyleft software licenses are considered protective or reciprocal in contrast w
 	* AGPL: GNU Affero General Public License:
 	 The GNU Affero General Public License is a modified version of the ordinary GNU GPL version 3. It has one added requirement: if you run a modified program on a server and let other users communicate with it there, your server must also allow them to download the source code corresponding to the modified version running there.
 	 The purpose of the GNU Affero GPL is to prevent a problem that affects developers of free programs that are often used on servers.
+
+### Objective
+* Utilizes Apple 2FA
+* Icloud integration
 
 
 ### Objective
