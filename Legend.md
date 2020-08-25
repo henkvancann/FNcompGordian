@@ -1,8 +1,8 @@
 # Legend of Features / Topics
 
 ### General
-..* Open Source
-..* License
+* Open Source
+* License
 
 ### Objective
 ..* Utilizes Apple 2FA
