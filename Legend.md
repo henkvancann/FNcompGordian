@@ -4,6 +4,8 @@
 
 ### General
 
+* Summary Differences
+
 * Ownership
 Describe ownership structure and developers.
 
@@ -57,6 +59,7 @@ Like iCloud, DropBox, etc....
 * Uses hot wallets on your node
 * Nodes integration: Nodle, Raspberry, etc...
 * Lightning enabled
+* Decentralized identity creation
 * Developer community strength
 
 ### Type of wallet
@@ -68,20 +71,21 @@ Is the wallet available as a mobile version? If so, for what devices and operati
 Is the wallet available as (part of) a self hosted Docker based suite of software.
 * Hardware wallet integration:
 Is the wallet compatible with hardware wallets? If so, which hardware wallets: Trezor / Ledger / Cold Card / KeepKey / BitBox / Others?
-* Difference
 * Import
+Importing keys.
 * Node wallet access: Trusted nodes
 * Mix or coinjoin
 Broadly speaking, coin mixing could refer to any activity that involves the obfuscation of funds by substituting them with others. However, in the cryptocurrency space, coin mixing commonly denotes a service provided by a third-party. Typically,  the service providers take users’ coins (and a small fee), and return coins that have no link to the sent ones. These services are also known as tumblers or mixers.
 CoinJoin is a trustless method for combining multiple Bitcoin payments from multiple spenders into a single transaction to make it more difficult for outside parties to determine which spender paid which recipient or recipients. Unlike many other privacy solutions, coinjoin transactions do not require a modification to the bitcoin protocol.
 * Pricing mechanism
 * Coordinator to be trusted
-* Central servers
+* Central servers: For coinjoin?
 * Watch only account
 * Distinctive privacy measures:
 Like new addresses for each transaction, avoiding Sybill attacks, Tor and VPN support, Ricochet
 * BIP Support: Segwit, Bech32, BIP-47
-* Stealth mode feature
+* Stealth mode feature:
+Stealth Mode will hide your Wallet install from the Android or IOS home screen and launcher. While in stealth mode you will not receive notifications of deposits into your wallet. Stealth Mode is good for hiding the fact you have a wallet on your device from casual observers. Anyone who has extended unrestricted access to your device would be able find the Wallet on the device. 
 * XXXX
 
 ### Technical
