@@ -46,31 +46,42 @@ Copyleft software licenses are considered protective or reciprocal in contrast w
 	 The purpose of the GNU Affero GPL is to prevent a problem that affects developers of free programs that are often used on servers.
 
 ### Objective
-* Utilizes Apple 2FA
-* Icloud integration
+* Utilizes 2FA
+Two-factor authentication (also known as 2FA) is a type, or subset, of multi-factor authentication. It is a method of confirming users' claimed identities by using a combination of two different factors. Does the wallet support 2FA? Which types of 2FA (like Google, Apple, Yubi, ....)?
+* Cloud integration
+Like iCloud, DropBox, etc....
 * Account xprv can be synced to icloud
 * Does accounting
 * Signs psbt with
 * Multisig wallet creation
 * Uses hot wallets on your node
+* Nodes integration: Nodle, Raspberry, etc...
+* Lightning enabled
+* Developer community strength
 
 ### Type of wallet
 * Desktop:
-Is the wallet available as a desktop version? If so, what operatinng systems are supported (OSX / Windows / Linux)? Are there any minimum specifications concerning versions and developer frameworks.
+Is the wallet available as a desktop version? If so, what operatinng systems are supported (Mac-OS / Windows / Linux)? Are there any minimum specifications concerning versions and developer frameworks.
 * Mobile:
 Is the wallet available as a mobile version? If so, for what devices and operating systems (IOS / Android)?. Are there any minimum requirements for the devices or operating systems?
 * Docker
 Is the wallet available as (part of) a self hosted Docker based suite of software.
-* Hardware wallets:
-Is the wallet compatible with hardware wallets? If so, which hardware wallets: Trezor / Ledger / Cold Card / Bit Box / Others?
+* Hardware wallet integration:
+Is the wallet compatible with hardware wallets? If so, which hardware wallets: Trezor / Ledger / Cold Card / KeepKey / BitBox / Others?
 * Difference
 * Import
-* Node wallet access
+* Node wallet access: Trusted nodes
 * Mix or coinjoin
+CoinJoin is a trustless method for combining multiple Bitcoin payments from multiple spenders into a single transaction to make it more difficult for outside parties to determine which spender paid which recipient or recipients. Unlike many other privacy solutions, coinjoin transactions do not require a modification to the bitcoin protocol.
 * Pricing mechanism
 * Coordinator to be trusted
 * Central servers
+* Watch only account
+* Distinctive privacy measures:
+Like new addresses for each transaction, avoiding Sybill attacks, Tor and VPN support, Ricochet
+* BIP Support: Segwit, Bech32, BIP-47
+* Stealth mode feature
 * XXXX
 
 ### Technical
- *  Coinjoin mixing - Samurai Wallet has disclosed a couple of Wasabi vulnerabilities. Essentially, the coinjoin mixing for Wasabi cancels itself out if done consecutively. There are some assumptions in the coinjoin code that unfortunately make mixing vulnerable to disclosure. There's some tensions between the two companies which has been ongoing for some time. That said, the competition between them seems to have created better products for both of them.
+ * Coinjoin mixing - Samurai Wallet has disclosed a couple of Wasabi vulnerabilities. Essentially, the coinjoin mixing for Wasabi cancels itself out if done consecutively. There are some assumptions in the coinjoin code that unfortunately make mixing vulnerable to disclosure. There's some tensions between the two companies which has been ongoing for some time. That said, the competition between them seems to have created better products for both of them.
