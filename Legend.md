@@ -42,17 +42,21 @@ Like iCloud, DropBox, etc....
 * **Account xprv can be synced to icloud**  
 * **Does accounting**  
 * **Signs psbt with (BIP174)**  
+Answer with Yes/No.  
 Partially Signed Bitcoin Transactions (PSBTs) are a data format that allows wallets and other tools to exchange information about a Bitcoin transaction and the signatures necessary to complete it.
 A PSBT can be created that identifies a set of UTXOs to spend and a set of outputs to receive that spent value. Then information about each UTXO that’s necessary to generate a signature for it can added, possibly by a separate tool, such as the UTXO’s script or its precise bitcoin value.  
 The PSBT can then be copied by any means to a program that can sign it. For multisig wallets or cases where different wallets control different inputs, this last step can be repeated multiple times by different programs on different copies of the PSBT. Multiple PSBTs each with one or more necessary signatures can be integrated into a single PSBT later. Finally, that fully signed PSBT can be converted into a complete ready-to-broadcast transaction.  
 * **Multisig wallet creation**  
+Answer with Yes/No.  
 Multi-signature, or multisig, is a wallet configuration that requires at least two keys to authorize a transaction. Commonly used by cryptocurrency exchanges to ensure funds can’t be moved by a rogue employee, multisig also has applications for end-users. If you’re seeking to enhance the security of your noncustodial bitcoin wallet, multi-signature might be the answer.  
 * **Uses hot wallets on your node**  
-* **Nodes integration:**
+* **Nodes integration:**  
 Nodle, Raspberry, etc...  
 * **Lightning enabled**  
+Answer with Yes/No.
 The Lightning Network is a network that sits on top of a blockchain to facilitate fast peer-to-peer transactions. It’s not exclusive to Bitcoin – other cryptocurrencies such as Litecoin have integrated it. The Lightning Network is what’s called an off-chain or layer two solution. It allows individuals to transact without having to record every transaction on the blockchain. The Lightning Network is separate from the Bitcoin network – it has its own nodes and software, but it nonetheless communicates with the main chain. To enter or exit the Lightning Network, you need to create special transactions on the blockchain.  
 * **Decentralized identity creation**  
+Answer with Yes/No.  
 Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID identifies any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) that the controller of the DID decides that it identifies. In contrast to typical, federated identifiers, DIDs have been designed so that they may be decoupled from centralized registries, identity providers, and certificate authorities. Specifically, while other parties might be used to help enable the discovery of information related to a DID, the design enables the controller of a DID to prove control over it without requiring permission from any other party.  
 * **Developer community strength**  
 https://openchannel.io/blog/how-to-build-an-awesome-developer-community/  
@@ -67,15 +71,18 @@ Is the wallet available as (part of) a self hosted Docker based suite of softwar
 Is the wallet compatible with hardware wallets? If so, which hardware wallets: Trezor / Ledger / Cold Card / KeepKey / BitBox / Others?  
 * **Import**  
 Importing keys.  
+Answer with Yes/No and specify.  
 * **Node wallet access:**
 Trusted nodes  
 * **Mix or coinjoin**  
+Answer with Yes/No and specify.  
 Broadly speaking, coin mixing could refer to any activity that involves the obfuscation of funds by substituting them with others. However, in the cryptocurrency space, coin mixing commonly denotes a service provided by a third-party. Typically, the service providers take users’ coins (and a small fee), and return coins that have no link to the sent ones. These services are also known as tumblers or mixers.  
 CoinJoin is a trustless method for combining multiple Bitcoin payments from multiple spenders into a single transaction to make it more difficult for outside parties to determine which spender paid which recipient or recipients. Unlike many other privacy solutions, coinjoin transactions do not require a modification to the bitcoin protocol.  
 * **Pricing mechanism**  
 * **Coordinator to be trusted**  
 * **Central servers: For coinjoin?**  
 * **Watch only account**  
+Answer with Yes/No.  
 * **Distinctive privacy measures:**  
 Like new addresses for each transaction, avoiding Sybill attacks, Tor and VPN support, Ricochet  
 * **BIP Support:**
