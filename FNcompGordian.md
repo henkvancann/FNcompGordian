@@ -41,7 +41,7 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | Coordinator to be trusted               | No                                     | No        |No|Yes|No|
 | Bitcoin Core Node             |  Your own                                    | Your own Gordian Server node, or Test trusted peer node       |||Via EPS your own or trusted peer|
 | Net available                 | **Main**, Test, Regtest, LN | Test, Regtest | **Main**, Test, Regtest | **Main**, Test | **Main**, LN|
-| ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2, ID creation, Signing & Backup***             |||**have a Bitcoin only wallet, full control of the transactions, supports Segwit and fee control**|
+| ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2, ID creation, Signing & Backup***             |||**have a Bitcoin only wallet, full control of the transactions, support Segwit and fee control**|
 | Utilizes 2FA               | No                                      | Yes                                  ||                                               |No|
 | Cloud integration               | No                                      | Icould, for atrributes, DID Documents, Virtual Credentials?                                  |||No|
 | Account xprv can be synced to a cloud service | No, it's stored on the local keychain (secure enclave) only                                   | Yes                                   |||No,but pub keys could be disclosed via EPS to peer nodes|
