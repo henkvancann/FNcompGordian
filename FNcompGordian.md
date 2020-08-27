@@ -27,7 +27,7 @@ Read more about it on Reddit [here](https://www.reddit.com/r/Bitcoin/comments/7w
 | ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***             |***owned by zkSNACKs***|***owned by Katana Cryptographic***   ||
 | Open Source License  | [GPLv3](https://github.com/Fonta1n3/FullyNoded/blob/master/LICENSE.md)                                         | [BSD-2](https://github.com/BlockchainCommons/GordianWallet-iOS/blob/master/LICENSE)                  | [MIT](https://github.com/zkSNACKs/WalletWasabi/blob/master/LICENSE.md)                                |[Unlicense](https://github.com/Samourai-Wallet/samourai-wallet-android/blob/develop/LICENSE)     |[MIT](https://github.com/BlueWallet/BlueWallet/blob/master/LICENSE)|
 | Coordinator to be trusted               | No                                     | No        |No|Yes|TBW                                               |
-| Bitcoin Core Node             |                                      |         ||| 
+| Bitcoin Core Node             |  Your own                                    | Test trusted peer node       |||Via EPS your own or trusted peer| 
 | ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2, ID creation, Signing & Backup***             ||| |
 | Utilizes 2FA               | No                                      | Yes                                  ||| TBW                                               |
 | Cloud integration               | No                                      | Icould, for atrributes, DID Documents, Virtual Credentials?                                  |||                       |
@@ -54,7 +54,7 @@ Read more about it on Reddit [here](https://www.reddit.com/r/Bitcoin/comments/7w
 | Bitbox               |                                     |        ||Watch only| 
 | ***Node connection***     |    |          |||
 | Bitcoin Core Node        | Yes              | Gordian Server  ||No|
-| Electrum Personal Server (EPS)| No|No|||Yes|
+| Electrum Personal Server (EPS)|Only via other nodes|No|||Yes|
 | Nodl             |                                      |         ||| 
 | Raspiblitz             |                                      |         || 
 | Embassy             |                                      |         ||| 
