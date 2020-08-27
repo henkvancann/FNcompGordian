@@ -19,7 +19,7 @@ The public domain consists of all the creative work to which no exclusive intell
 	  * *PD: Public Domain:*  
 	  * *CC0: Creative Commons:*  
 	A Creative Commons (CC) license is one of several public copyright licenses that enable the free distribution of an otherwise copyrighted "work". A CC license is used when an author wants to give other people the right to share, use, and build upon a work that they (the author) have created. CC provides an author flexibility (for example, they might choose to allow only non-commercial uses of a given work) and protects the people who use or redistribute an author's work from concerns of copyright infringement as long as they abide by the conditions that are specified in the license by which the author distributes the work.  
-    * *Permissive license:*   
+* *Permissive license:*   
 A permissive software license, sometimes also called BSD-like or BSD-style license,is a free-software license with only minimal restrictions on how the software can be used, modified, and redistributed, usually including a warranty disclaimer.  
 	  * *MIT License:*  
 	A permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility. It is compatible because it can be re-licensed under other licenses. The MIT license is compatible with many copyleft licenses, such as the GNU General Public License (GPL);  
@@ -29,7 +29,7 @@ A permissive software license, sometimes also called BSD-like or BSD-style licen
 	  * *BSD Lisence:*  
 	BSD licenses are a family of permissive free software licenses, imposing minimal restrictions on the use and distribution of covered software. This is in contrast to copyleft licenses, which have share-alike requirements. The original BSD license was used for its namesake, the Berkeley Software Distribution (BSD).    
 	  * *Apple Public Source License:*    
-    * *Copyleft (protective license):*  
+* *Copyleft (protective license):*  
 Copyleft is the practice of granting the right to freely distribute and modify intellectual property with the requirement that the same rights be preserved in derivative works created from that property. 
 Copyleft software licenses are considered protective or reciprocal in contrast with permissive free software licenses, and require that information necessary for reproducing and modifying the work must be made available to recipients of the software program, or binaries. This information is most commonly in the form of source code files, which usually contain a copy of the license terms and acknowledge the authors of the code.  
 	  * *GPL: GNU General Public License:*  
