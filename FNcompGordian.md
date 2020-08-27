@@ -49,10 +49,10 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | Buy/sell cryptocurrencies        | No                                      | No              |||Yes, p2p exchange no KYC|
 | Signs psbt with                  | Root xprv                               | Account based xprvs                  ||| TBW                                               |
 | Multisig wallet creation         | By hand using FN                        | Automated                            ||No| TBW                                               |
-| Uses hot wallets on your node    | Yes                                     | No                                   |Yes|Yes| Yes                                               |
-| Decentralized identity creation  | No                                      | Yes                                  | No| No| No|
-| Developer community                  | One lead | One lead | | |3 developers| 
-| **Type of wallet**               | **Multi-purpose for power user**        | **Dedicated, with ease of use in mind** |**Coinjoin**|**Coinjoin**|**Simple**|
+| [Uses hot wallets on your node](./Legend.md#Uses-hot-wallets-on-your-node)    | Yes                                     | No                                   |Yes|Yes| Yes                                               |
+| [Decentralized identity creation]((./Legend.md#Decentralized-identity-creation))  | No                                      | Yes                                  | No| No| No|
+| [Developer community](./Legend.md#Developer-community)         | One lead | One lead | | |3 developers| 
+| **[Type of wallet](./Legend.md#Type-of-wallet)**               | **Multi-purpose for power user**        | **Dedicated, with ease of use in mind** |**Coinjoin**|**Coinjoin**|**Simple**|
 | Difference                       | a remote control for your node          | a wallet                             |a coin mixing privacy wallet|a coin mixing privacy wallet| a simple wallet available on many devices
 | Import                           | Anything                                | Limited                              ||| TBW                                               |
 | Node wallet access               | All                                     | Only allows access to Gordian wallets    ||| via EPS                                               |
