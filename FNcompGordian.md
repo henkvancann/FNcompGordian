@@ -13,6 +13,9 @@ We'll go into much more detail of the comparison by introducing other wallets to
 
 All wallets complement each other in some ways. The holy grail of bitcoin secure storage is multisig and not having to rely on one app/device/codebase/etc, the best of breed wallets, like the ones we benchmark, are capable of multisig and **can be independent signers for the same multisig wallet**.
 
+## All Bitcoin only wallets
+Except for Gordian Wallet, which also keeps keys for Decentralised IDs.
+
 ## Hardware Wallet Interface
 Our comparison here keeps the discussion lean about Hardware Wallets. An extensive list can be found on github [here](https://github.com/bitcoin-core/HWI)
 
@@ -27,18 +30,19 @@ Read more about it on Reddit [here](https://www.reddit.com/r/Bitcoin/comments/7w
 | ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***             |***owned by zkSNACKs***|***owned by Katana Cryptographic***   ||
 | Open Source License  | [GPLv3](https://github.com/Fonta1n3/FullyNoded/blob/master/LICENSE.md)                                         | [BSD-2](https://github.com/BlockchainCommons/GordianWallet-iOS/blob/master/LICENSE)                  | [MIT](https://github.com/zkSNACKs/WalletWasabi/blob/master/LICENSE.md)                                |[Unlicense](https://github.com/Samourai-Wallet/samourai-wallet-android/blob/develop/LICENSE)     |[MIT](https://github.com/BlueWallet/BlueWallet/blob/master/LICENSE)|
 | Coordinator to be trusted               | No                                     | No        |No|Yes|TBW                                               |
-| Bitcoin Core Node             |  Your own                                    | Test trusted peer node       |||Via EPS your own or trusted peer| 
+| Bitcoin Core Node             |  Your own                                    | Your own Gordian Server node, or Test trusted peer node       |||Via EPS your own or trusted peer| 
 | ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2, ID creation, Signing & Backup***             ||| |
-| Utilizes 2FA               | No                                      | Yes                                  ||| TBW                                               |
+| Utilizes 2FA               | No                                      | Yes                                  ||                                               |No|
 | Cloud integration               | No                                      | Icould, for atrributes, DID Documents, Virtual Credentials?                                  |||                       |
-| Account xprv can be synced to icloud | No, it's stored on the local keychain (secure enclave) only                                   | Yes                                   ||| |
-| Does accounting                  | No                                      | Yes, users pseudonymous              |||    |
+| Account xprv can be synced to a cloud service | No, it's stored on the local keychain (secure enclave) only                                   | Yes                                   |||No,but pub keys could be disclosed via EPS to peer nodes|
+| Does accounting                  | No                                      | Yes, users pseudonymous              |||No|
+| Buy/sell cryptocurrencies        | No                                      | No              |||Yes, p2p exchange no KYC|
 | Signs psbt with                  | Root xprv                               | Account based xprvs                  ||| TBW                                               |
 | Multisig wallet creation         | By hand using FN                        | Automated                            ||| TBW                                               |
 | Uses hot wallets on your node    | Yes                                     | No                                   ||| TBW                                               |
-| Developer community                  | One lead | One lead | | || 
+| Developer community                  | One lead | One lead | | |3 developers| 
 | **Type of wallet**               | **Multi-purpose for power user**        | **Dedicated, with ease of use in mind**  |||                                                   |
-| Difference                       | a remote control for your node          | a wallet                             |||                                               |
+| Difference                       | a remote control for your node          | a wallet                             |||                                               ||
 | Import                           | Anything                                | Limited                              ||| TBW                                               |
 | Node wallet access               | All                                     | Only allows access to Gordian wallets    ||| TBW                                               |
 | Mix or coinjoin               | No                                     | No        | TBW                                           |||
