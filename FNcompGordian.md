@@ -61,22 +61,22 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | [Central servers](./Legend.md#Central-servers)               | No                                     | No        |No|Yes| No                                               |
 | [Spectrum of privacy measures](./Legend.md#[Spectrum-of-privacy-measures)  | Tor V3, Unique addr                                    | Tor V3, Unique addr    |Coinjoin |Coinjoin |EPS|TBW                                               |
 | **Feature / topic**                  | **Fully Noded**                             | **Gordian Wallet**                       | **Wasabi Wallet**                           | **Samourai Wallet**                           | **Blue Wallet**  |
-| ***Hardware wallet integration***     |    |          |||
+| ***[Hardware wallet integration](./Legend.md#)***     |    |          |||
 | Trezor               | TBW                          |         |        ||Watch only| 
 | Ledger               | TBW                           |     |        ||Watch only| 
 | Keepkey               | TBW                           |   |        ||Watch only| 
 | Coldcard               | TBW                           |   |        ||Watch only| 
 | Bitbox               |  TBW                         |          |        ||Watch only|
 | Cobo Vault            | TBW                          |       |        ||Watch only|  
-| ***Node connection***     |||||
+| ***[Node connection](./Legend.md#)***     |||||
 | Bitcoin Core Node        | Yes              | Gordian Server  |Yes|Dojo|No|
 | Electrum Personal Server (EPS)|Only via other nodes|No|||Yes|
 | Nodl             |Yes                                      |   |      ||Yes, because EPS available| 
 | Raspiblitz             |Yes                                     || |         |Yes, because EPS available| 
 | Embassy             |Yes                                    |     |    ||No| 
 | myNode             |Yes                                      |     |    ||No| 
-| ***Technical***                        | ***build from source***   | ***executable***             |||***build from source***|
+| ***[Technical](./Legend.md#Technical)***                        | ***build from source***   | ***executable***             |||***build from source***|
 | Github             |[Fully Noded](https://github.com/Fonta1n3/FullyNoded)** | **[Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)** | **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)** | **[Samourai](https://github.com/Samourai-Wallet)** | **[Blue Wallet](https://github.com/Bluewallet)**|
-| BIP support | TBW | | | | |
-| Lightning Enabled             | Yes                          |         |||Yes| 
-| Coinjoin mixing vulnerability  | No|No| cancels itself out if done consecutively and leaks private data| no such vulnerability present|No|
+| [BIP support](./Legend.md#BIP-support) | TBW | | | | |
+| [Lightning Enabled](./Legend.md#Lightning-Enabled)             | Yes                          |         |||Yes| 
+| [Coinjoin mixing vulnerability](./Legend.md#Coinjoin-mixing-vulnerability)  | No|No| cancels itself out if done consecutively and leaks private data| no such vulnerability present|No|
