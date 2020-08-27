@@ -1,21 +1,19 @@
 
 # Comparison FN and Gordian Wallet
 
-**A comparison of the differences and similarities of [Fully Noded](https://github.com/Fonta1n3/FullyNoded) and [Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)**, formerly known as FN2
+**A comparison of the differences and similarities of [Fully Noded](https://github.com/Fonta1n3/FullyNoded)**, **[Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)** formerly known as FN2, **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)** and **[Samourai](https://github.com/Samourai-Wallet)**.
 
 [@Fonta1n3](https://github.com/Fonta1n3), the creator of both FN and Gordian Wallet, said it pretty straightforward when the question *What’s the difference between version FN1 and FN2?* was raised the first time in 2020: <br/>
 
 **"Gordian is a wallet, Fully Noded is a remote control for your node"**
 
-We'll go into much more detail of the comparison by introducing other wallets to compare with: <TBW>
+We'll go into much more detail of the comparison by introducing other wallets to compare with: Samourai and Wasabi.
 
 # Similarities
 
-Both complement each other. The holy grail of bitcoin secure storage is multisig and not having to rely on one app/device/codebase/etc, both are capable of multisig and **can be independent signers for the same multisig wallet**.
+All wallets complement each other in some ways. The holy grail of bitcoin secure storage is multisig and not having to rely on one app/device/codebase/etc, the best of breed wallets, like the ones we benchmark, are capable of multisig and **can be independent signers for the same multisig wallet**.
 
-# Differences
-TBW
-
+# Differences and simularities matrix
 
 | Feature / topic                  | Fully Noded                             | Gordian Wallet                       | Wasabi Wallet                           | Samourai Wallet                           | Implication   |
 | ---------------------------------| ----------------------------------------| -------------------------------------| ----------------------------------------| ----------------------------------------| ----------------| 

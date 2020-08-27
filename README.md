@@ -2,7 +2,7 @@
 Comparison of Fully Noded (FN) and Gordian Wallet, formerly known as 'FN2' [here](./FNcompGordian.md)
 
 ## What is this?
-This mini project offers **a comparison of the differences and similarities of [Fully Noded](https://github.com/Fonta1n3/FullyNoded) [Gordian Wallet (fka FN2](https://github.com/BlockchainCommons/GordianWallet-iOS)**, **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)** and **[Samourai](https://github.com/Samourai-Wallet)** as far as these categories of features are concerned: <br/>
+This mini project offers **a comparison of the differences and similarities of [Fully Noded](https://github.com/Fonta1n3/FullyNoded)**, **[Gordian Wallet (fka FN2)](https://github.com/BlockchainCommons/GordianWallet-iOS)**, **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)** and **[Samourai](https://github.com/Samourai-Wallet)** as far as these categories of features are concerned: <br/>
  - General
  - Objectives
  - Wallet types
