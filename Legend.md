@@ -58,7 +58,7 @@ What was the explicit intial idea to start the project?
 Two-factor authentication (also known as 2FA) is a type, or subset, of multi-factor authentication. It is a method of confirming users' claimed identities by using a combination of two different factors. Does the wallet support 2FA? Which types of 2FA (like Google, Apple, Yubi, ....)?
 #### Cloud integration
 Like iCloud, DropBox, etc....
-#### Account xprv can be synced to icloud
+#### Account xprv can be synced to cloud service
 TBW
 #### Does accounting
 TBW
