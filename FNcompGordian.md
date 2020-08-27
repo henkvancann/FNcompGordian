@@ -34,14 +34,14 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 
 | Feature / topic                  | Fully Noded                             | Gordian Wallet                       | Wasabi Wallet                           | Samourai Wallet                           | Blue Wallet   |
 | ---------------------------------| ----------------------------------------| -------------------------------------| ----------------------------------------| ----------------------------------------| ----------------| 
-| ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***             |***owned by zkSNACKs***|***owned by Katana Cryptographic***   ||
+| ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***             |***owned by zkSNACKs***|***owned by Katana Cryptographic***   |**owned by Bluewallet Services, S.R.L., 3 shareholders/developers?**|
 | Open Source License  | [GPLv3](https://github.com/Fonta1n3/FullyNoded/blob/master/LICENSE.md)                                         | [BSD-2](https://github.com/BlockchainCommons/GordianWallet-iOS/blob/master/LICENSE)                  | [MIT](https://github.com/zkSNACKs/WalletWasabi/blob/master/LICENSE.md)                                |[Unlicense](https://github.com/Samourai-Wallet/samourai-wallet-android/blob/develop/LICENSE)     |[MIT](https://github.com/BlueWallet/BlueWallet/blob/master/LICENSE)|
-| Coordinator to be trusted               | No                                     | No        |No|Yes|TBW                                               |
+| Coordinator to be trusted               | No                                     | No        |No|Yes|No|
 | Bitcoin Core Node             |  Your own                                    | Your own Gordian Server node, or Test trusted peer node       |||Via EPS your own or trusted peer|
 | Net available                 | **Main**, Test, Regtest, LN | Test, Regtest | **Main**, Test, Regtest | **Main**, Test | **Main**, LN|
-| ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2, ID creation, Signing & Backup***             ||| |
+| ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2, ID creation, Signing & Backup***             |||**have a Bitcoin only wallet, full control of the transactions, supports Segwit and fee control**|
 | Utilizes 2FA               | No                                      | Yes                                  ||                                               |No|
-| Cloud integration               | No                                      | Icould, for atrributes, DID Documents, Virtual Credentials?                                  |||                       |
+| Cloud integration               | No                                      | Icould, for atrributes, DID Documents, Virtual Credentials?                                  |||No|
 | Account xprv can be synced to a cloud service | No, it's stored on the local keychain (secure enclave) only                                   | Yes                                   |||No,but pub keys could be disclosed via EPS to peer nodes|
 | Does accounting                  | No                                      | Yes, users pseudonymous              |||No|
 | Buy/sell cryptocurrencies        | No                                      | No              |||Yes, p2p exchange no KYC|
@@ -49,29 +49,29 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | Multisig wallet creation         | By hand using FN                        | Automated                            ||| TBW                                               |
 | Uses hot wallets on your node    | Yes                                     | No                                   ||| TBW                                               |
 | Developer community                  | One lead | One lead | | |3 developers| 
-| **Type of wallet**               | **Multi-purpose for power user**        | **Dedicated, with ease of use in mind**  |||                                                   |
-| Difference                       | a remote control for your node          | a wallet                             |||                                               ||
+| **Type of wallet**               | **Multi-purpose for power user**        | **Dedicated, with ease of use in mind** |Coinjoin|Coinjoin|Simple|
+| Difference                       | a remote control for your node          | a wallet                             |a coin mixing privacy wallet|a coin mixing privacy wallet| a simple wallet available on many devices
 | Import                           | Anything                                | Limited                              ||| TBW                                               |
 | Node wallet access               | All                                     | Only allows access to Gordian wallets    ||| TBW                                               |
 | Mix or coinjoin               | No                                     | No        |Yes|Yes|No|
-| Pricing mechanism               | Donations                                     | Donations        |Expensive to be safe|| Donations                                               |
+| Pricing mechanism               | Donations                                     | Donations        |Expensive to be safe|Fees on coinjoins| Donations                                               |
 | Central servers               | No                                     | No        |No|Yes| No                                               |
 | Spectrum of privacy measures       | Tor V3, Unique addr                                    | Tor V3, Unique addr    |Coinjoin |Coinjoin |EPS|TBW                                               |
 | **Feature / topic**                  | **Fully Noded**                             | **Gordian Wallet**                       | **Wasabi Wallet**                           | **Samourai Wallet**                           | **Blue Wallet**  |
 | ***Hardware wallet integration***     |    |          |||
-| Trezor               |                                     |        ||Watch only| 
-| Ledger               |                                     |        ||Watch only| 
-| Keepkey               |                                     |        ||Watch only| 
-| Coldcard               |                                     |        ||Watch only| 
-| Bitbox               |                                     |        ||Watch only|
-| Cobo Vault            |                                     |        ||Watch only|  
+| Trezor               | TBW                          |         |        ||Watch only| 
+| Ledger               | TBW                           |     |        ||Watch only| 
+| Keepkey               | TBW                           |   |        ||Watch only| 
+| Coldcard               | TBW                           |   |        ||Watch only| 
+| Bitbox               |  TBW                         |          |        ||Watch only|
+| Cobo Vault            | TBW                          |       |        ||Watch only|  
 | ***Node connection***     |||||
-| Bitcoin Core Node        | Yes              | Gordian Server  ||No|
+| Bitcoin Core Node        | Yes              | Gordian Server  |Yes|Dojo|No|
 | Electrum Personal Server (EPS)|Only via other nodes|No|||Yes|
-| Nodl             |Yes                                      |         ||Yes, because EPS available| 
-| Raspiblitz             |Yes                                      |         |Yes, because EPS available| 
-| Embassy             |Yes                                    |         ||No| 
-| myNode             |Yes                                      |         ||No| 
-| ***Technical***                        | ***build from source***   | ***executable***             |||
-| Lightning Enabled             | Yes                          |         ||Yes| 
-| Coinjoin mixing vulnerability  | n.a.|n.a.| cancels itself out if done consecutively and leaks private data| no such vulnerability present||
+| Nodl             |Yes                                      |   |      ||Yes, because EPS available| 
+| Raspiblitz             |Yes                                     || |         |Yes, because EPS available| 
+| Embassy             |Yes                                    |     |    ||No| 
+| myNode             |Yes                                      |     |    ||No| 
+| ***Technical***                        | ***build from source***   | ***executable***             |||***build from source***|
+| Lightning Enabled             | Yes                          |         |||Yes| 
+| Coinjoin mixing vulnerability  | No|No| cancels itself out if done consecutively and leaks private data| no such vulnerability present|No|
