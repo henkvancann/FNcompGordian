@@ -61,14 +61,14 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | [Central servers](./Legend.md#Central-servers)               | No                                     | No        |No|Yes| No                                               |
 | [Spectrum of privacy measures](./Legend.md#[Spectrum-of-privacy-measures)  | Tor V3, Unique addr                                    | Tor V3, Unique addr    |Coinjoin |Coinjoin |EPS|TBW                                               |
 | **Feature / topic**                  | **Fully Noded**                             | **Gordian Wallet**                       | **Wasabi Wallet**                           | **Samourai Wallet**                           | **Blue Wallet**  |
-| ***[Hardware wallet integration](./Legend.md#)***     |    |          |||
+| ***[Hardware wallet integration](./Legend.md#Hardware-wallet-integration)***     |    |          |||
 | Trezor               | TBW                          |         |        ||Watch only| 
 | Ledger               | TBW                           |     |        ||Watch only| 
 | Keepkey               | TBW                           |   |        ||Watch only| 
 | Coldcard               | TBW                           |   |        ||Watch only| 
 | Bitbox               |  TBW                         |          |        ||Watch only|
 | Cobo Vault            | TBW                          |       |        ||Watch only|  
-| ***[Node connection](./Legend.md#)***     |||||
+| ***[Node connection](./Legend.md#Node-connection)***     |||||
 | Bitcoin Core Node        | Yes              | Gordian Server  |Yes|Dojo|No|
 | Electrum Personal Server (EPS)|Only via other nodes|No|||Yes|
 | Nodl             |Yes                                      |   |      ||Yes, because EPS available| 
