@@ -53,13 +53,13 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | [Decentralized identity creation]((./Legend.md#Decentralized-identity-creation))  | No                                      | Yes                                  | No| No| No|
 | [Developer community](./Legend.md#Developer-community)         | One lead | One lead | | |3 developers| 
 | **[Type of wallet](./Legend.md#Type-of-wallet)**               | **Multi-purpose for power user**        | **Dedicated, with ease of use in mind** |**Coinjoin**|**Coinjoin**|**Simple**|
-| Difference                       | a remote control for your node          | a wallet                             |a coin mixing privacy wallet|a coin mixing privacy wallet| a simple wallet available on many devices
-| Import                           | Anything                                | Limited                              ||| TBW                                               |
-| Node wallet access               | All                                     | Only allows access to Gordian wallets    ||| via EPS                                               |
-| Mix or coinjoin               | No                                     | No        |Yes|Yes|No|
-| Pricing mechanism               | Donations                                     | Donations        |Expensive to be safe|Fees on coinjoins| Donations                                               |
-| Central servers               | No                                     | No        |No|Yes| No                                               |
-| Spectrum of privacy measures       | Tor V3, Unique addr                                    | Tor V3, Unique addr    |Coinjoin |Coinjoin |EPS|TBW                                               |
+| [Difference](./Legend.md#Difference)                    | a remote control for your node          | a wallet                             |a coin mixing privacy wallet|a coin mixing privacy wallet| a simple wallet available on many devices
+| [Import](./Legend.md#Import)                        | Anything                                | Limited                              ||| TBW                                               |
+| [Node wallet access](./Legend.md#Node-wallet-access)            | All                                     | Only allows access to Gordian wallets    ||| via EPS                                               |
+| [Mix or coinjoin](./Legend.md#Mix-or-coinjoin)               | No                                     | No        |Yes|Yes|No|
+| [Pricing mechanism](./Legend.md#Pricing-mechanism)             | Donations                                     | Donations        |Expensive to be safe|Fees on coinjoins| Donations                                         |
+| [Central servers](./Legend.md#Central-servers)               | No                                     | No        |No|Yes| No                                               |
+| [Spectrum of privacy measures](./Legend.md#[Spectrum-of-privacy-measures)  | Tor V3, Unique addr                                    | Tor V3, Unique addr    |Coinjoin |Coinjoin |EPS|TBW                                               |
 | **Feature / topic**                  | **Fully Noded**                             | **Gordian Wallet**                       | **Wasabi Wallet**                           | **Samourai Wallet**                           | **Blue Wallet**  |
 | ***Hardware wallet integration***     |    |          |||
 | Trezor               | TBW                          |         |        ||Watch only| 
