@@ -146,18 +146,26 @@ Which bitcoin Core node on your own system will be installed and used ?
 Which bitcoin networks are availalbe in the wallet via the Bitcoin Node connected? Mainnet, Testnet, Regtestnet, Lightning Network.
 
 ### Objective
+What was the explicit intial idea to start the project?
+
 #### Utilizes 2FA
 Two-factor authentication (also known as 2FA) is a type, or subset, of multi-factor authentication. It is a method of confirming users' claimed identities by using a combination of two different factors. Does the wallet support 2FA? Which types of 2FA (like Google, Apple, Yubi, ....)?
 #### Cloud integration
 Like iCloud, DropBox, etc....
 #### Account xprv can be synced to icloud
+TBW
 #### Does accounting
+TBW
+#### Buy and sell bitcoin
+TBW
 #### Signs psbt with
+TBW
 #### Multisig wallet creation
+TBW
 #### Uses hot wallets on your node
-
+TBW
 #### Decentralized identity creation
-
+TBW
 #### Developer community 
 An important part of decentralisation is the number of skilled developers involved to oversee the whole codebase and who are able to contribute to code, test and document the system.
 
@@ -197,6 +205,9 @@ Like new addresses for each transaction, avoiding Sybill attacks, Tor and VPN su
 ### Technical
 Several topic listed in rows below the header in [comparison](./FNcompGordian#Differences-and-simularities-matrix)
 
+#### Github
+The address of the project's virtual working place on the internet.
+
 #### Coinjoin mixing vulnerability
 Samurai Wallet has disclosed a couple of Wasabi vulnerabilities. Essentially, the coinjoin mixing for Wasabi cancels itself out if done consecutively. There are some assumptions in the coinjoin code that unfortunately make mixing vulnerable to disclosure. There's some tensions between the two companies which has been ongoing for some time. That said, the competition between them seems to have created better products for both of them.
 #### Lightning Enabled
@@ -204,10 +215,6 @@ Is this a Lightning Wallet (too)?
 
 #### BIP Support
 Segwit, Bech32, BIP-47
-
-
-
-
 
 # Optional feature to compare (not yet listed!)
 #### Stealth mode feature
