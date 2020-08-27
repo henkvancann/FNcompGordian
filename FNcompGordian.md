@@ -39,22 +39,23 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***             |***owned by zkSNACKs***|***owned by Katana Cryptographic***   |**owned by Bluewallet Services, S.R.L., 3 shareholders/developers?**|
 | Open Source License  | [GPLv3](https://github.com/Fonta1n3/FullyNoded/blob/master/LICENSE.md)                                         | [BSD-2](https://github.com/BlockchainCommons/GordianWallet-iOS/blob/master/LICENSE)                  | [MIT](https://github.com/zkSNACKs/WalletWasabi/blob/master/LICENSE.md)                                |[Unlicense](https://github.com/Samourai-Wallet/samourai-wallet-android/blob/develop/LICENSE)     |[MIT](https://github.com/BlueWallet/BlueWallet/blob/master/LICENSE)|
 | Coordinator to be trusted               | No                                     | No        |No|Yes|No|
-| Bitcoin Core Node             |  Your own                                    | Your own Gordian Server node, or Test trusted peer node       |||Via EPS your own or trusted peer|
+| Bitcoin Core Node             |  Your own bitcoind                                   | Your own Gordian Server node, or Test trusted peer node       |Your own bitcoind |Your own Dojo node|Via EPS your own or trusted peer|
 | Net available                 | **Main**, Test, Regtest, LN | Test, Regtest | **Main**, Test, Regtest | **Main**, Test | **Main**, LN|
-| ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2, ID creation, Signing & Backup***             |||**have a Bitcoin only wallet, full control of the transactions, supports Segwit and fee control**|
+| ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2, ID creation, Signing & Backup***             |||**have a Bitcoin only wallet, full control of the transactions, support Segwit and fee control**|
 | Utilizes 2FA               | No                                      | Yes                                  ||                                               |No|
 | Cloud integration               | No                                      | Icould, for atrributes, DID Documents, Virtual Credentials?                                  |||No|
 | Account xprv can be synced to a cloud service | No, it's stored on the local keychain (secure enclave) only                                   | Yes                                   |||No,but pub keys could be disclosed via EPS to peer nodes|
 | Does accounting                  | No                                      | Yes, users pseudonymous              |||No|
 | Buy/sell cryptocurrencies        | No                                      | No              |||Yes, p2p exchange no KYC|
 | Signs psbt with                  | Root xprv                               | Account based xprvs                  ||| TBW                                               |
-| Multisig wallet creation         | By hand using FN                        | Automated                            ||| TBW                                               |
-| Uses hot wallets on your node    | Yes                                     | No                                   ||| TBW                                               |
+| Multisig wallet creation         | By hand using FN                        | Automated                            ||No| TBW                                               |
+| Uses hot wallets on your node    | Yes                                     | No                                   |Yes|Yes| Yes                                               |
+| Decentralized identity creation  | No                                      | Yes                                  | No| No| No|
 | Developer community                  | One lead | One lead | | |3 developers| 
-| **Type of wallet**               | **Multi-purpose for power user**        | **Dedicated, with ease of use in mind** |Coinjoin|Coinjoin|Simple|
+| **Type of wallet**               | **Multi-purpose for power user**        | **Dedicated, with ease of use in mind** |**Coinjoin**|**Coinjoin**|**Simple**|
 | Difference                       | a remote control for your node          | a wallet                             |a coin mixing privacy wallet|a coin mixing privacy wallet| a simple wallet available on many devices
 | Import                           | Anything                                | Limited                              ||| TBW                                               |
-| Node wallet access               | All                                     | Only allows access to Gordian wallets    ||| TBW                                               |
+| Node wallet access               | All                                     | Only allows access to Gordian wallets    ||| via EPS                                               |
 | Mix or coinjoin               | No                                     | No        |Yes|Yes|No|
 | Pricing mechanism               | Donations                                     | Donations        |Expensive to be safe|Fees on coinjoins| Donations                                               |
 | Central servers               | No                                     | No        |No|Yes| No                                               |
@@ -76,5 +77,6 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | myNode             |Yes                                      |     |    ||No| 
 | ***Technical***                        | ***build from source***   | ***executable***             |||***build from source***|
 | Github             |[Fully Noded](https://github.com/Fonta1n3/FullyNoded)** | **[Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)** | **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)** | **[Samourai](https://github.com/Samourai-Wallet)** | **[Blue Wallet](https://github.com/Bluewallet)**|
+| BIP support | TBW | | | | |
 | Lightning Enabled             | Yes                          |         |||Yes| 
 | Coinjoin mixing vulnerability  | No|No| cancels itself out if done consecutively and leaks private data| no such vulnerability present|No|

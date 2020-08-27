@@ -1,8 +1,8 @@
 # FNcompGordian
-Comparison of Fully Noded (FN) and Gordian Wallet, formerly known as 'FN2' [here](./FNcompGordian.md)
+Comparison of Fully Noded (FN) and Gordian Wallet, formerly known as 'FN2' [here](./FNcompGordian.md) against other bitcoin-only wallets.
 
 ## What is this?
-This mini project offers **a comparison of the differences and similarities of [Fully Noded](https://github.com/Fonta1n3/FullyNoded)**, **[Gordian Wallet (fka FN2)](https://github.com/BlockchainCommons/GordianWallet-iOS)**, **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)** and **[Samourai](https://github.com/Samourai-Wallet)** as far as these categories of features are concerned: <br/>
+This mini project offers **a comparison of the differences and similarities of [Fully Noded](https://github.com/Fonta1n3/FullyNoded)**, **[Gordian Wallet (fka FN2)](https://github.com/BlockchainCommons/GordianWallet-iOS)**, **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)**, **[Samourai](https://github.com/Samourai-Wallet)** and **[Blue Wallet](https://github.com/Bluewallet)** as far as these categories of features are concerned: <br/>
  - General
  - Objectives
  - Wallet types
@@ -20,5 +20,3 @@ The creator of FullyNoded, @Fonta1n3, develops and maintains both iOS apps. Gord
 
 ## Objective?
 This analysis provides an overview of the most advanced wallets, their funcionality, strengths and weaknesses.
-Erwin voegt nog een stukje toe!!!!
-Erwin voegt nog, maar Henk metselt al erdoor heen.
