@@ -4,16 +4,11 @@
 
 ### General
 
-* Summary Differences
-
-* Ownership
+#### Ownership
 Describe ownership structure and developers.
 
-
-* Open Source
-Answer with Yes/No. 
-Open-source software releases source code under a license in which the copyright holder grants users the rights to use, study, change, and distribute the software to anyone and for any purpose. Open-source software may be developed in a collaborative public manner.
-
+#### Open Source License
+Open-source software releases source code under a license in which the copyright holder grants users the rights to use, study, change, and distribute the software to anyone and for any purpose. Open-source software may be developed in a collaborative public manner.<br/>
 * License
 A software license is a legal instrument (usually by way of contract law, with or without printed material) governing the use or redistribution of software. A typical software license grants the licensee, typically an end-user, permission to use one or more copies of software in ways where such a use would otherwise potentially constitute copyright infringement of the software owner's exclusive rights under copyright.
 
@@ -47,20 +42,30 @@ Copyleft software licenses are considered protective or reciprocal in contrast w
 	 The GNU Affero General Public License is a modified version of the ordinary GNU GPL version 3. It has one added requirement: if you run a modified program on a server and let other users communicate with it there, your server must also allow them to download the source code corresponding to the modified version running there.
 	 The purpose of the GNU Affero GPL is to prevent a problem that affects developers of free programs that are often used on servers.
 
+#### Coordinator to be trusted
+Do we need to trust a centralised authority like coordinator somewhere in the process of starting, using or quitting the service of the wallet?
+
+#### Bitcoin Core Node
+Which bitcoin Core node on your own system will be installed and used ?
+
+#### Net available 
+Which bitcoin networks are availalbe in the wallet via the Bitcoin Node connected? Mainnet, Testnet, Regtestnet, Lightning Network.
+
 ### Objective
-* Utilizes 2FA
+#### Utilizes 2FA
 Two-factor authentication (also known as 2FA) is a type, or subset, of multi-factor authentication. It is a method of confirming users' claimed identities by using a combination of two different factors. Does the wallet support 2FA? Which types of 2FA (like Google, Apple, Yubi, ....)?
-* Cloud integration
+#### Cloud integration
 Like iCloud, DropBox, etc....
-* Account xprv can be synced to icloud
-* Does accounting
-* Signs psbt with
-* Multisig wallet creation
-* Uses hot wallets on your node
-* Nodes integration: Nodle, Raspberry, etc...
-* Lightning enabled
-* Decentralized identity creation
-* Developer community strength
+#### Account xprv can be synced to icloud
+#### Does accounting
+#### Signs psbt with
+#### Multisig wallet creation
+#### Uses hot wallets on your node
+
+#### Decentralized identity creation
+
+#### Developer community 
+An important part of decentralisation is the number of skilled developers involved to oversee the whole codebase and who are able to contribute to code, test and document the system.
 
 ### Type of wallet
 * Desktop:
@@ -69,24 +74,49 @@ Is the wallet available as a desktop version? If so, what operatinng systems are
 Is the wallet available as a mobile version? If so, for what devices and operating systems (IOS / Android)?. Are there any minimum requirements for the devices or operating systems?
 * Docker
 Is the wallet available as (part of) a self hosted Docker based suite of software.
-* Hardware wallet integration:
-Is the wallet compatible with hardware wallets? If so, which hardware wallets: Trezor / Ledger / Cold Card / KeepKey / BitBox / Others?
-* Import
-Importing keys.
-* Node wallet access: Trusted nodes
-* Mix or coinjoin
+#### Difference
+Main distinctive feature of a wallet compared to the others
+
+#### Import
+Importing keys
+#### Node wallet access: Trusted nodes
+#### Mix or coinjoin
 Broadly speaking, coin mixing could refer to any activity that involves the obfuscation of funds by substituting them with others. However, in the cryptocurrency space, coin mixing commonly denotes a service provided by a third-party. Typically,  the service providers take users’ coins (and a small fee), and return coins that have no link to the sent ones. These services are also known as tumblers or mixers.
 CoinJoin is a trustless method for combining multiple Bitcoin payments from multiple spenders into a single transaction to make it more difficult for outside parties to determine which spender paid which recipient or recipients. Unlike many other privacy solutions, coinjoin transactions do not require a modification to the bitcoin protocol.
-* Pricing mechanism
-* Coordinator to be trusted
-* Central servers: For coinjoin?
-* Watch only account
-* Distinctive privacy measures:
+#### Pricing mechanism
+How is the project financed, does the wallet generate license fees or receive donation?
+
+### Hardware wallet integration
+Is the wallet compatible with hardware wallets? If so, which hardware wallets: Trezor / Ledger / Cold Card / KeepKey / BitBox / Others?<br/>
+Several products listed in rows below the header in [comparison](./FNcompGordian#Differences-and-simularities-matrix)
+
+### Node connection
+Several products listed in rows below the header in [comparison](./FNcompGordian#Differences-and-simularities-matrix)
+#### Node wallet access
+Is the wallet software able to control the Node's own wallets?
+
+#### Central servers: 
+Does the wallet use central servers at all, for example for coinjoin.
+#### Spectrum of privacy measures
 Like new addresses for each transaction, avoiding Sybill attacks, Tor and VPN support, Ricochet
-* BIP Support: Segwit, Bech32, BIP-47
-* Stealth mode feature:
-Stealth Mode will hide your Wallet install from the Android or IOS home screen and launcher. While in stealth mode you will not receive notifications of deposits into your wallet. Stealth Mode is good for hiding the fact you have a wallet on your device from casual observers. Anyone who has extended unrestricted access to your device would be able find the Wallet on the device. 
-* XXXX
 
 ### Technical
- * Coinjoin mixing - Samurai Wallet has disclosed a couple of Wasabi vulnerabilities. Essentially, the coinjoin mixing for Wasabi cancels itself out if done consecutively. There are some assumptions in the coinjoin code that unfortunately make mixing vulnerable to disclosure. There's some tensions between the two companies which has been ongoing for some time. That said, the competition between them seems to have created better products for both of them.
+Several topic listed in rows below the header in [comparison](./FNcompGordian#Differences-and-simularities-matrix)
+
+#### Coinjoin mixing vulnerability
+Samurai Wallet has disclosed a couple of Wasabi vulnerabilities. Essentially, the coinjoin mixing for Wasabi cancels itself out if done consecutively. There are some assumptions in the coinjoin code that unfortunately make mixing vulnerable to disclosure. There's some tensions between the two companies which has been ongoing for some time. That said, the competition between them seems to have created better products for both of them.
+#### Lightning Enabled
+Is this a Lightning Wallet (too)?
+
+#### BIP Support
+Segwit, Bech32, BIP-47
+
+
+
+
+
+# Optional feature to compare (not yet listed!)
+#### Stealth mode feature
+Stealth Mode will hide your Wallet install from the Android or IOS home screen and launcher. While in stealth mode you will not receive notifications of deposits into your wallet. Stealth Mode is good for hiding the fact you have a wallet on your device from casual observers. Anyone who has extended unrestricted access to your device would be able find the Wallet on the device. 
+
+
