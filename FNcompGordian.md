@@ -59,7 +59,7 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | [Mix or coinjoin](./Legend.md#Mix-or-coinjoin)               | No                                     | No        |Yes|Yes|No|
 | [Pricing mechanism](./Legend.md#Pricing-mechanism)             | Donations                                     | Donations        |Expensive to be safe|Fees on coinjoins| Donations                                         |
 | [Central servers](./Legend.md#Central-servers)               | No                                     | No        |No|Yes| No                                               |
-| [Spectrum of privacy measures](./Legend.md#[Spectrum-of-privacy-measures)  | Tor V3, Unique addr                                    | Tor V3, Unique addr    |Coinjoin |Coinjoin |EPS|TBW                                               |
+| [Spectrum of privacy measures](./Legend.md#Spectrum-of-privacy-measures)  | Tor V3, Unique addr                                    | Tor V3, Unique addr    |Coinjoin |Coinjoin |EPS|TBW                                               |
 | **Feature / topic**                  | **Fully Noded**                             | **Gordian Wallet**                       | **Wasabi Wallet**                           | **Samourai Wallet**                           | **Blue Wallet**  |
 | ***[Hardware wallet integration](./Legend.md#Hardware-wallet-integration)***     |    |          |||
 | Trezor               | TBW                          |         |        ||Watch only| 
