@@ -42,13 +42,13 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | Bitcoin Core Node             |  Your own bitcoind                                   | Your own Gordian Server node, or Test trusted peer node       |Your own bitcoind |Your own Dojo node|Via EPS your own or trusted peer|
 | Net available                 | **Main**, Test, Regtest, LN | Test, Regtest | **Main**, Test, Regtest | **Main**, Test | **Main**, LN|
 | ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2, ID creation, Signing & Backup***             |||**have a Bitcoin only wallet, full control of the transactions, support Segwit and fee control**|
-| Utilizes 2FA               | No                                      | Yes                                  ||                                               |No|
-| Cloud integration               | No                                      | Icould, for atrributes, DID Documents, Virtual Credentials?                                  |||No|
+| [Utilizes 2FA](./Legend.md#Utilizes-2FA)               | No                                      | Yes                                  ||                                               |No|
+| [Cloud integration](./Legend.md#Cloud-integration)               | No                                      | Icould, for atrributes, DID Documents, Virtual Credentials?                                  |||No|
 | Account xprv can be synced to a cloud service | No, it's stored on the local keychain (secure enclave) only                                   | Yes                                   |||No,but pub keys could be disclosed via EPS to peer nodes|
-| Does accounting                  | No                                      | Yes, users pseudonymous              |||No|
-| Buy/sell cryptocurrencies        | No                                      | No              |||Yes, p2p exchange no KYC|
-| Signs psbt with                  | Root xprv                               | Account based xprvs                  ||| TBW                                               |
-| Multisig wallet creation         | By hand using FN                        | Automated                            ||No| TBW                                               |
+| [Does accounting](./Legend.md#Does-accounting)                  | No                                      | Yes, users pseudonymous              |||No|
+| [Buy and sell bitcoin](./Legend.md#Buy-and-sell-bitcoin)        | No                                      | No              |||Yes, p2p exchange no KYC|
+| [Signs psbt with](./Legend.md#Signs-psbt-with)                  | Root xprv                               | Account based xprvs                  ||| TBW                                               |
+| [Multisig wallet creation](./Legend.md#Multisig-wallet-creation)         | By hand using FN                        | Automated                            ||No| TBW                                               |
 | [Uses hot wallets on your node](./Legend.md#Uses-hot-wallets-on-your-node)    | Yes                                     | No                                   |Yes|Yes| Yes                                               |
 | [Decentralized identity creation]((./Legend.md#Decentralized-identity-creation))  | No                                      | Yes                                  | No| No| No|
 | [Developer community](./Legend.md#Developer-community)         | One lead | One lead | | |3 developers| 
@@ -76,7 +76,7 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | Embassy             |Yes                                    |     |    ||No| 
 | myNode             |Yes                                      |     |    ||No| 
 | ***[Technical](./Legend.md#Technical)***                        | ***build from source***   | ***executable***             |||***build from source***|
-| Github             |[Fully Noded](https://github.com/Fonta1n3/FullyNoded)** | **[Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)** | **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)** | **[Samourai](https://github.com/Samourai-Wallet)** | **[Blue Wallet](https://github.com/Bluewallet)**|
+| [Github](./Legend.md#Github)             |[Fully Noded](https://github.com/Fonta1n3/FullyNoded)** | **[Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)** | **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)** | **[Samourai](https://github.com/Samourai-Wallet)** | **[Blue Wallet](https://github.com/Bluewallet)**|
 | [BIP support](./Legend.md#BIP-support) | TBW | | | | |
 | [Lightning Enabled](./Legend.md#Lightning-Enabled)             | Yes                          |         |||Yes| 
 | [Coinjoin mixing vulnerability](./Legend.md#Coinjoin-mixing-vulnerability)  | No|No| cancels itself out if done consecutively and leaks private data| no such vulnerability present|No|
