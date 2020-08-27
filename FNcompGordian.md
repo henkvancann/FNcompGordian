@@ -34,11 +34,11 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 
 # Differences and simularities matrix
 
-| **Feature / topic**                  | Fully Noded                             | Gordian Wallet                       | Wasabi Wallet                           | Samourai Wallet                           | Blue Wallet   |
+| Feature / topic                  | Fully Noded                             | Gordian Wallet                       | Wasabi Wallet                           | Samourai Wallet                           | Blue Wallet   |
 | ---------------------------------| ----------------------------------------| -------------------------------------| -----------------------------------| ----------------------------------------| ---------------------------| 
 | ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***             |***owned by zkSNACKs***|***owned by Katana Cryptographic***   |**owned by Bluewallet Services, S.R.L., 3 shareholders/developers?**|
 | [Open Source License](./Legend.md#Open-Source-License)  | [GPLv3](https://github.com/Fonta1n3/FullyNoded/blob/master/LICENSE.md)                                         | [BSD-2](https://github.com/BlockchainCommons/GordianWallet-iOS/blob/master/LICENSE)                  | [MIT](https://github.com/zkSNACKs/WalletWasabi/blob/master/LICENSE.md)                                |[Unlicense](https://github.com/Samourai-Wallet/samourai-wallet-android/blob/develop/LICENSE)     |[MIT](https://github.com/BlueWallet/BlueWallet/blob/master/LICENSE)|
-| Coordinator to be trusted               | No                                     | No        |No|Yes|No|
+| [Coordinator to be trusted](./Legend.md#Coordinator-to-be-trusted)               | No                                     | No        |No|Yes|No|
 | [Bitcoin Core Node](./Legend.md#Bitcoin-Core-Node)             |  Your own bitcoind                                   | Your own Gordian Server node, or Test trusted peer node       |Your own bitcoind |Your own Dojo node|Via EPS your own or trusted peer|
 | [Net available](./Legend.md#Net-available)                 | **Main**, Test, Regtest, LN | Test, Regtest | **Main**, Test, Regtest | **Main**, Test | **Main**, LN|
 | ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2, ID creation, Signing & Backup***             |||**have a Bitcoin only wallet, full control of the transactions, support Segwit and fee control**|
