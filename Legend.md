@@ -140,8 +140,8 @@ Copyleft software licenses are considered protective or reciprocal in contrast w
 Do we need to trust a centralised authority like coordinator somewhere in the process of starting, using or quitting the service of the wallet?
 
 #### Bitcoin Core Node
-Which bitcoin Core node on your own system will be installed and used ?
-
+Which bitcoin Core node on your own system will be installed and used?  
+Either a DIY installed node, Nodl, Raspiblitz, Embassy, MyNode or via Electrum Personal Server (or similar)'  
 #### Net available 
 Which bitcoin networks are availalbe in the wallet via the Bitcoin Node connected? Mainnet, Testnet, Regtestnet, Lightning Network.
 
@@ -157,15 +157,19 @@ TBW
 #### Does accounting
 TBW
 #### Buy and sell bitcoin
-TBW
+Can you directly buy and sell bitcoin from the wallet? Either via (decentralized) exchanges or peer-to-peer.  
 #### Signs psbt with
 TBW
-#### Multisig wallet creation
-TBW
+#### Multisig wallet creation  
+Answer with Yes/No.  
+A multi-signature system (or multisig) would require n participants to sign the same transaction and send the n signatures to the system. This is much better, except for the fact that n signatures means that the transaction size increases linearly with the number of signers required.  
+Read for more details: https://www.cryptologie.net/article/486/difference-between-shamir-secret-sharing-sss-vs-multisig-vs-aggregated-signatures-bls-vs-distributed-key-generation-dkg-vs-threshold-signatures/  
 #### Uses hot wallets on your node
 TBW
-#### Decentralized identity creation
-TBW
+#### Decentralized identity creation  
+Answer with Yes/No.  
+Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID identifies any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) that the controller of the DID decides that it identifies. In contrast to typical, federated identifiers, DIDs have been designed so that they may be decoupled from centralized registries, identity providers, and certificate authorities.  
+Read for more details: https://www.w3.org/TR/did-core/  
 #### Developer community 
 An important part of decentralisation is the number of skilled developers involved to oversee the whole codebase and who are able to contribute to code, test and document the system.
 
@@ -205,17 +209,20 @@ Like new addresses for each transaction, avoiding Sybill attacks, Tor and VPN su
 ### Technical
 Several topic listed in rows below the header in [comparison](./FNcompGordian#Differences-and-simularities-matrix)
 
-#### Github
-The address of the project's virtual working place on the internet.
-
+#### Github  
+The address of the project's virtual working place on the internet.  
+At the heart of GitHub is Git, an open source project started by Linux. GitHub manages and stores revisions of projects. Although it’s mostly used for code, Git could be used to manage any other type of file. Think of it as a filing system for every draft of a document.  
 #### Coinjoin mixing vulnerability
-Samurai Wallet has disclosed a couple of Wasabi vulnerabilities. Essentially, the coinjoin mixing for Wasabi cancels itself out if done consecutively. There are some assumptions in the coinjoin code that unfortunately make mixing vulnerable to disclosure. There's some tensions between the two companies which has been ongoing for some time. That said, the competition between them seems to have created better products for both of them.
-#### Lightning Enabled
-Is this a Lightning Wallet (too)?
-
-#### BIP Support
-Segwit, Bech32, BIP-47
-
+Samourai Wallet has disclosed a couple of Wasabi vulnerabilities. Essentially, the coinjoin mixing for Wasabi cancels itself out if done consecutively. There are some assumptions in the coinjoin code that unfortunately make mixing vulnerable to disclosure. There's some tensions between the two companies which has been ongoing for some time. That said, the competition between them seems to have created better products for both of them.
+#### Lightning Enabled  
+Answer with Yes/No.  
+Is this a Lightning Wallet (too)?  
+Lightning is a decentralized network using smart contract functionality in the blockchain to enable instant payments across a network of participants.  
+Read more: https://lightning.network/  
+#### BIP Support  
+Mention unique privacy and security enhancing BIPs used by the wallet.  
+A Bitcoin Improvement Proposal (BIP) is a standard for proposing changes to the Bitcoin protocol, or in some cases a source for information for the Bitcoin community. Additionally, some BIPs are proposed changes to the BIP process itself.  
+Read more:  https://github.com/bitcoin/bips  
 # Optional feature to compare (not yet listed!)
 #### Stealth mode feature
 Stealth Mode will hide your Wallet install from the Android or IOS home screen and launcher. While in stealth mode you will not receive notifications of deposits into your wallet. Stealth Mode is good for hiding the fact you have a wallet on your device from casual observers. Anyone who has extended unrestricted access to your device would be able find the Wallet on the device. 
