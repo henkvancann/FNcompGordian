@@ -1,13 +1,10 @@
+# UNDER CONSTRUCTION!! 
+# Comparison FN and Gordian Wallet against other bitcoin-only wallets
 
-# Comparison FN and Gordian Wallet
+**A comparison of the differences and similarities of [Fully Noded](https://github.com/Fonta1n3/FullyNoded)**, **[Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)** formerly known as FN2, **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)**, **[Samourai](https://github.com/Samourai-Wallet)** and **[Blue Wallet](https://github.com/Bluewallet)**.
 
-**A comparison of the differences and similarities of [Fully Noded](https://github.com/Fonta1n3/FullyNoded)**, **[Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)** formerly known as FN2, **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)** and **[Samourai](https://github.com/Samourai-Wallet)**.
-
-[@Fonta1n3](https://github.com/Fonta1n3), the creator of both FN and Gordian Wallet, said it pretty straightforward when the question *What’s the difference between version FN1 and FN2?* was raised the first time in 2020: <br/>
-
-**"Gordian is a wallet, Fully Noded is a remote control for your node"**
-
-We'll go into much more detail of the comparison by introducing other wallets to compare with: Samourai and Wasabi.
+### Exoplanation of features to compare
+See our [Legend](./Legend.md).
 
 # Similarities
 
@@ -25,6 +22,11 @@ Read more about it on Reddit [here](https://www.reddit.com/r/Bitcoin/comments/7w
 
 # Differences
 
+## "Gordian is a wallet, Fully Noded is a remote control for your node"
+
+says [@Fonta1n3](https://github.com/Fonta1n3), the creator of both FN and Gordian Wallet, said it pretty straightforward when the question *What’s the difference between version FN1 and FN2?* was raised the first time in 2020: <br/>
+We'll go into much more detail of the comparison by introducing other wallets to compare with: Samourai and Wasabi.
+
 ## Multi-signature
 The holy grail of bitcoin secure storage is multisig and not having to rely on one app/device/codebase/etc, most best of breed wallets, like some wallets that we benchmark, are capable of multisig and **can be independent signers for the same multisig wallet**.
 Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet says 'Coming soon' as of Aug 2020, which Samourai stated in 2018 already....)
@@ -33,7 +35,7 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 # Differences and simularities matrix
 
 | Feature / topic                  | Fully Noded                             | Gordian Wallet                       | Wasabi Wallet                           | Samourai Wallet                           | Blue Wallet   |
-| ---------------------------------| ----------------------------------------| -------------------------------------| ----------------------------------------| ----------------------------------------| ----------------| 
+| ---------------------------------| ----------------------------------------| -------------------------------------| -----------------------------------| ----------------------------------------| ---------------------------| 
 | ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***             |***owned by zkSNACKs***|***owned by Katana Cryptographic***   |**owned by Bluewallet Services, S.R.L., 3 shareholders/developers?**|
 | Open Source License  | [GPLv3](https://github.com/Fonta1n3/FullyNoded/blob/master/LICENSE.md)                                         | [BSD-2](https://github.com/BlockchainCommons/GordianWallet-iOS/blob/master/LICENSE)                  | [MIT](https://github.com/zkSNACKs/WalletWasabi/blob/master/LICENSE.md)                                |[Unlicense](https://github.com/Samourai-Wallet/samourai-wallet-android/blob/develop/LICENSE)     |[MIT](https://github.com/BlueWallet/BlueWallet/blob/master/LICENSE)|
 | Coordinator to be trusted               | No                                     | No        |No|Yes|No|
@@ -73,5 +75,6 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | Embassy             |Yes                                    |     |    ||No| 
 | myNode             |Yes                                      |     |    ||No| 
 | ***Technical***                        | ***build from source***   | ***executable***             |||***build from source***|
+| Github             |[Fully Noded](https://github.com/Fonta1n3/FullyNoded)** | **[Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)** | **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)** | **[Samourai](https://github.com/Samourai-Wallet)** | **[Blue Wallet](https://github.com/Bluewallet)**|
 | Lightning Enabled             | Yes                          |         |||Yes| 
 | Coinjoin mixing vulnerability  | No|No| cancels itself out if done consecutively and leaks private data| no such vulnerability present|No|
