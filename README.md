@@ -19,4 +19,7 @@ The names used to be very similar, FN and FN2, but their objectives were always 
 The creator of FullyNoded, @Fonta1n3, develops and maintains both iOS apps. Gordian Wallet and Fully Noded.
 
 ## Objective?
-This analysis provides an overview of the most advanced wallets, their funcionality, strengths and weaknesses.
+This analysis provides an overview of the most advanced wallets, their funcionality, strengths and weaknesses. It has mainly served an educational purpose: it's been a way to learn about wallets, tor, connections to nodes, multisignatures, airgapped, transfer of keys, etc.
+
+## And you?
+Hope you find differences and similarities at a glance. And get to know what they all have in common. Beware that is a snapshot in time. Now Aug-Sept 2020.
