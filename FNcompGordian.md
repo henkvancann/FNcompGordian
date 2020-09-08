@@ -53,7 +53,7 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | [Does accounting](./Legend.md#Does-accounting)                  | No                                      | Yes, users pseudonymous              |||No|
 | [Buy and sell bitcoin](./Legend.md#Buy-and-sell-bitcoin)        | No                                      | No              |||Yes, p2p exchange no KYC|
 | [Signs psbt with](./Legend.md#Signs-psbt-with)                  | Root xprv                               | Account based xprvs                  ||| TBW                                               |
-| [Multisig wallet creation](./Legend.md#Multisig-wallet-creation)         | By hand using FN                        | Automated, creates a 2/3 multisig wallet. Your node is a signer as well as your device. Then you can keep one offline backup.          ||No| TBW                                               |
+| [Multisig wallet creation](./Legend.md#Multisig-wallet-creation)         | By hand using FN, FN never adds a private key to your node unless you manually import a `wif` or `xprv`  | Automated, creates a 2/3 multisig wallet. Your node is a signer as well as your device. Then you can keep one offline backup of a seed.          ||No| TBW                                               |
 | [Uses hot wallets on your node](./Legend.md#Uses-hot-wallets-on-your-node)    | Yes                                     | No                                   |Yes|Yes| Yes                                               |
 | [Decentralized identity creation]((./Legend.md#Decentralized-identity-creation))  | No                                      | Yes                                  | No| No| No|
 | [Developer community](./Legend.md#Developer-community)         | One lead | One lead | | |3 developers| 
@@ -85,3 +85,4 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | [BIP support](./Legend.md#BIP-support) | TBW | | | | |
 | [Lightning Enabled](./Legend.md#Lightning-Enabled)             | Yes                          |No       |||Yes| 
 | [Coinjoin mixing vulnerability](./Legend.md#Coinjoin-mixing-vulnerability)  | No|No| cancels itself out if done consecutively and leaks private data| no such vulnerability present|No|
+|

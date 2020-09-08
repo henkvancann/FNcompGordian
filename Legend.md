@@ -1,6 +1,77 @@
-## **Legend of Features / Topics**
+# **Legend of Features / Topics**
 
----
+## Jump table to categories
+1. [General](#General)
+2. [Definitions](#Definitions)
+3. [Userinterface](#Userinterface)
+4. [Import](#Import)
+5. [Export](#Export)
+6. [Wallets](#Wallets)
+7. [Connection](#Connection)
+8. [Transactions](#Transactions)
+9. [Optional feature to compare](#Optional-feature-to-compare-(not-yet-listed!))
+
+
+### Definitions
+
+- FN : Fully Noded app
+- FN2 : Fully Noded 2 app, new name is Gordian Wallet, The original name FN2 was a misnaming because it is a different app than FN from its inception. [This comparison](./Docs/FN2_Comparison.md) tries to explain the differences between Fully Noded and Gordian Wallet. 
+- signed raw transaction : [Wikipage](https://en.bitcoin.it/wiki/Raw_Transactions) explains it all
+- Bitcoin-cli: Bitcoin *CommandLine Interface*; just like Bitcoin Core app the CLI uses RPC calls to give your node and the bitcoin network commands and get results back.
+- Bitcoin Core (Wallet) App, also known as `Bitcoin-qt`: Software running on MacOS, Windows and Linux that offers a **Graphical User Interface** to your Bitcoin Wallet and, if you wish, to your node. Just like Bitcoin CLI the Core app uses RPC calls to give your node and the bitcoin network commands and get results back.
+- Bitcoin-qt: another name for Bitcoin Core (Wallet) App.
+- bitcoind: Bitcoin Deamon, background process running a bitcoin node. Bitcoind is a program that implements the Bitcoin protocol for remote procedure call (RPC) use. It is also the second Bitcoin client in the network's history. It is available under the MIT license in 32-bit and 64-bit versions for Windows, GNU/Linux-based OSes, and Mac OS X. [Read more](https://en.bitcoin.it/wiki/Bitcoind)
+- psbt: Partially signed bitcoin transactions (PSBTs) Also covering BIP174. Partially Signed Bitcoin Transactions (PSBTs) are a data format that allows wallets and other tools to exchange information about a Bitcoin transaction and the signatures necessary to complete it.
+- rbf; Replace-By-Fee (RBF) is a node policy that allows an unconfirmed transaction in a mempool to be replaced with a different transaction that spends at least one of the same inputs and which pays a higher transaction fee. **For newbies:** a transaction that can't get through because of too low fee, can be overridden (replaced) with a higher fee to maybe succeed instead.
+- pure bitcoin core wallets: traditional bitcoin wallet, that has to be manually backed up, recovered etc using bitcoin-cli. Your node will sign transactions and will hold the private key.
+- Fully Noded wallets: support BIP39 recovery words, the seed is encrypted and stored on your device **not** on the node. The node will only ever hold public keys. Your node will build psbt for us that FN will sign (not your Node). Your node verifies the UTXO's
+- Libwally : an open source library (https://github.com/ElementsProject/libwally-core) used by Fully Noded, (https://github.com/blockchain/libwally-swift/blob/master/README.md) which allows us to utilize BIP39 directly in the app meaning you can easily recover your Fully Noded wallet with Electrum for example. Now when you create a wallet you will get a 12 word recovery phrase (no passphrase by default) to backup and keep safe.
+- legacy bitcoin address (p2pkh): refers to the accepted common standard to derive non segwit addresses. These addresses always begin with a 1.
+- bech32  bitcoin address(p2wpkh):BIP49 refers to the accepted common standard of deriving segwit "compatibility" addresses. These addresses begin with a 3.
+- segwit wrapped  bitcoin address (p2sh-p2wpkh) : BIP49 refers to the accepted common standard of deriving segwit "compatibility" addresses. These addresses begin with a 3.
+- BIP84 keys : BIP84 refers to the accepted common standard of deriving native segwit addresses. These addresses always begin with bc1 - and are referred to bech32 addresses.
+- Segwit addresses: – Segregated Witness – or SegWit in short – reduced the transaction data’s size to allow for faster transactions, better scalability and decreased fees. Native SegWit (bech32) enhanced this even further and includes even lower fees. Not all exchanges and wallet providers support sending Bitcoin to a Native SegWit address yet, which is why you are presented both options in Ledger Live. Transactions between all 3 address types are possible
+- keypool : The keypool is a collection of unused addresses in your wallet. The keypool parameter tells the client how many unused addresses to keep in its pool. The original purpose of the keypool is to allow you to backup your wallet file less frequently and still have access to all your funds in the event of a hard drive failure. However since the invention of Hierarchical Deterministic Wallets (HD wallets, [BIP32](https://en.bitcoin.it/wiki/Deterministic_wallet)): If you have a HD wallet (check the icon on the bottom-right corner in Bitcoin Core), it doesn't matter. If you've created your wallet in an older version of Bitcoin Core, it's not an HD wallet. If that's the case, your keypool is important for backups: your backup has the same 1000 keys, which means you only need to make a new backup after using many different new addresses. If you would limit the keypool size to 20, you'll quickly run out of addresses, and you need to make new backups very often. That's the reason the keypool was increased from 100 to 1000. An important distinction with regrads to FN and Bitcoin Core is that Bitcoin Core is not able to add multisig addresses to the keypool, therefore we rely on the `bitcoin-cli` command `deriveaddresses` to derive multisig addresses on the fly using your multisig descriptors.
+- Output descriptors: Descriptors are a clever way of importing specific keys into your node from any derivation, for any (or all) address types, single or multi signature, along with a fingerprint so offline psbt signers like a Coldcard and Fully Noded can sign the psbt if they hold the correct seed.
+- coldcard : a type of hardware wallet to store, send and receive crypto currencies
+- ledger Nano S/X: types of hardware wallets to store, send and receive crypto currencies
+- Keepkey : a type of hardware wallet to store, send and receive crypto currencies
+- Trezor : a type of hardware wallet to store, send and receive crypto currencies
+- Tor:Tor is free and open-source software for enabling anonymous communication. The name derived from the acronym for the original software project name "The Onion Router". [Read more in Wikipedia](https://en.wikipedia.org/wiki/Tor_(anonymity_network))
+- Node: A bitcoin full Node is a independent entity in a peer to peer ecosystem. A Node independently checks and verifies all protocol rules for incoming broadcasted transactions. A full node does not trust, but verifies. Technically speaking a *node* is a computer connected to other computers which follows rules and shares information. A *'full node'* is a computer in Bitcoin's peer-to-peer network which hosts and synchronises a copy of the entire Bitcoin blockchain. [Here](https://medium.com/@gloriazhao/map-of-the-bitcoin-network-c6f2619a76f3) is an excellent read on nodes, what they are and the differences between types of nodes.
+- Gordian Server / Standup app: is a personal one-click Mac OS installer for Bitcoin Core and Tor that will present a QuickConnect QR code that can be used to pair mobile wallets for remote use over Tor V3. [Read more](https://github.com/BlockchainCommons/GordianSystem)
+- Nodl: A hardware box with to run a non-preloaded bitcoin node on it, [commercial site](https://www.nodl.it/). 
+- RPC: Remote Procedure Calls
+- bitcoind: Bitcoin Deamon, background process running a bitcoin node. Bitcoind is a program that implements the Bitcoin protocol for remote procedure call (RPC) use. It is also the second Bitcoin client in the network's history. It is available under the MIT license in 32-bit and 64-bit versions for Windows, GNU/Linux-based OSes, and Mac OS X. [Read more](https://en.bitcoin.it/wiki/Bitcoind)
+
+- EPS : TBW
+- CoinJoin : CoinJoin is a trustless method for combining multiple Bitcoin payments from multiple spenders into a single transaction to make it more difficult for outside parties to determine which spender paid which recipient or recipients. More on [wikipedia](https://en.bitcoin.it/wiki/CoinJoin)
+
+## Knowledge you should be confidently applying
+- The definitions above
+- Output Descriptors : https://github.com/bitcoin/bitcoin/blob/master/doc/descriptors.md
+- BIP32, BIP39, BIP44, BIP47, BIP49, BIP84, BIP174
+- derivation paths, keypools
+## Actions you should be comfortable with
+- Amend knowledge and keep existing knowledge up to date
+- recover from a seed
+- sweep to a new wallet
+- use bitcoin-cli
+- install, sync, start and stop your own full node
+- connect your TOR V3
+
+
+# Jump table to categories
+1. [General](#General)
+2. [Standup](#Standup)
+3. [Userinterface](#Userinterface)
+4. [Import](#Import)
+5. [Export](#Export)
+6. [Wallets](#Wallets)
+7. [Connection](#Connection)
+8. [Transactions](#Transactions)
+9. [Optional feature to compare](#Optional-feature-to-compare-(not-yet-listed!))
+
 
 ### General
 
@@ -90,6 +161,7 @@ Main distinctive feature of a wallet compared to the others
 #### Import
 Importing keys
 #### Node wallet access: Trusted nodes
+Gordian Wallet does not give you access to every wallet on the node, Fully Noded does
 #### Mix or coinjoin
 Broadly speaking, coin mixing could refer to any activity that involves the obfuscation of funds by substituting them with others. However, in the cryptocurrency space, coin mixing commonly denotes a service provided by a third-party. Typically,  the service providers take users’ coins (and a small fee), and return coins that have no link to the sent ones. These services are also known as tumblers or mixers.
 CoinJoin is a trustless method for combining multiple Bitcoin payments from multiple spenders into a single transaction to make it more difficult for outside parties to determine which spender paid which recipient or recipients. Unlike many other privacy solutions, coinjoin transactions do not require a modification to the bitcoin protocol.
@@ -127,6 +199,7 @@ Read more: https://lightning.network/
 Mention unique privacy and security enhancing BIPs used by the wallet.  
 A Bitcoin Improvement Proposal (BIP) is a standard for proposing changes to the Bitcoin protocol, or in some cases a source for information for the Bitcoin community. Additionally, some BIPs are proposed changes to the BIP process itself.  
 Read more:  https://github.com/bitcoin/bips  
+
 # Optional feature to compare (not yet listed!)
 #### Stealth mode feature
 Stealth Mode will hide your Wallet install from the Android or IOS home screen and launcher. While in stealth mode you will not receive notifications of deposits into your wallet. Stealth Mode is good for hiding the fact you have a wallet on your device from casual observers. Anyone who has extended unrestricted access to your device would be able find the Wallet on the device. 
