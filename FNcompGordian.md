@@ -1,4 +1,4 @@
-# UNDER CONSTRUCTION!! 
+# ALWAYS UNDER CONSTRUCTION!! BECAUSE WALLETS CHANGE EVERY WEEK.
 # Comparison FN and Gordian Wallet against other bitcoin-only wallets
 
 **A comparison of the differences and similarities of [Fully Noded](https://github.com/Fonta1n3/FullyNoded)**, **[Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)** formerly known as FN2, **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)**, **[Samourai](https://github.com/Samourai-Wallet)** and **[Blue Wallet](https://github.com/Bluewallet)**.
@@ -8,11 +8,16 @@ See our [Legend](./Legend.md).
 
 # Similarities
 
-All wallets complement each other in some ways. 
+All wallets complement each other in some ways.
 
-## All Bitcoin only wallets
+## Teamplayers Gordian Wallet (GW) and Fully Noded (FN)
+The general idea is `multisig` is by far the most secure way to use bitcoin, both GW and FN are excellent multsig wallets, it’s generally a good idea to use many wallets for your multisig setup, with that in mind the two together make an excellent team.
+
+## All 'Bitcoin only' wallets
 Except for Gordian Wallet, which also keeps keys for Decentralised IDs.
 
+## Developers (have) the same (background)
+GW and FN are developed by the one and only developer `@Fonta1n3`. Wasabi and Samourai are both CoinJoin forks. Developers have their background
 ## Hardware Wallet Interface
 Our comparison here keeps the discussion lean about Hardware Wallets. An extensive list can be found on github [here](https://github.com/bitcoin-core/HWI)
 
@@ -39,7 +44,7 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | ***General***                        | ***owned by Fonta1n3***   | ***owned by BlockchainCommons***             |***owned by zkSNACKs***|***owned by Katana Cryptographic***   |**owned by Bluewallet Services, S.R.L., 3 shareholders/developers?**|
 | [Open Source License](./Legend.md#Open-Source-License)  | [GPLv3](https://github.com/Fonta1n3/FullyNoded/blob/master/LICENSE.md)                                         | [BSD-2](https://github.com/BlockchainCommons/GordianWallet-iOS/blob/master/LICENSE)                  | [MIT](https://github.com/zkSNACKs/WalletWasabi/blob/master/LICENSE.md)                                |[Unlicense](https://github.com/Samourai-Wallet/samourai-wallet-android/blob/develop/LICENSE)     |[MIT](https://github.com/BlueWallet/BlueWallet/blob/master/LICENSE)|
 | [Coordinator to be trusted](./Legend.md#Coordinator-to-be-trusted)               | No                                     | No        |No|Yes|No|
-| [Bitcoin Core Node](./Legend.md#Bitcoin-Core-Node)             |  Your own bitcoind                                   | Your own Gordian Server node, or Test trusted peer node       |Your own bitcoind |Your own Dojo node|Via EPS your own or trusted peer|
+| [Devices](./Legend.md#Devices)             |  Mobile  (iOS only)                                 | Mobile (iOS only)      |Desktop (Mac and Windows) |Mobile (iOS/Android)|Mobile (iOS/Android) and Desktop (Mac and Windows)|
 | [Net available](./Legend.md#Net-available)                 | **Main**, Test, Regtest, LN | Test, Regtest | **Main**, Test, Regtest | **Main**, Test | **Main**, LN|
 | ***Objective***                        | ***full access to your nodes bitcoin-cli api***   | ***Incorporate DID into FN2, ID creation, Signing & Backup***             |||**have a Bitcoin only wallet, full control of the transactions, support Segwit and fee control**|
 | [Utilizes 2FA](./Legend.md#Utilizes-2FA)               | No                                      | Yes                                  ||                                               |No|
@@ -48,7 +53,7 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | [Does accounting](./Legend.md#Does-accounting)                  | No                                      | Yes, users pseudonymous              |||No|
 | [Buy and sell bitcoin](./Legend.md#Buy-and-sell-bitcoin)        | No                                      | No              |||Yes, p2p exchange no KYC|
 | [Signs psbt with](./Legend.md#Signs-psbt-with)                  | Root xprv                               | Account based xprvs                  ||| TBW                                               |
-| [Multisig wallet creation](./Legend.md#Multisig-wallet-creation)         | By hand using FN                        | Automated                            ||No| TBW                                               |
+| [Multisig wallet creation](./Legend.md#Multisig-wallet-creation)         | By hand using FN                        | Automated, creates a 2/3 multisig wallet. Your node is a signer as well as your device. Then you can keep one offline backup.          ||No| TBW                                               |
 | [Uses hot wallets on your node](./Legend.md#Uses-hot-wallets-on-your-node)    | Yes                                     | No                                   |Yes|Yes| Yes                                               |
 | [Decentralized identity creation]((./Legend.md#Decentralized-identity-creation))  | No                                      | Yes                                  | No| No| No|
 | [Developer community](./Legend.md#Developer-community)         | One lead | One lead | | |3 developers| 
@@ -78,5 +83,5 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | ***[Technical](./Legend.md#Technical)***                        | ***build from source***   | ***executable***             |||***build from source***|
 | [Github](./Legend.md#Github)             |[Fully Noded](https://github.com/Fonta1n3/FullyNoded)** | **[Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)** | **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)** | **[Samourai](https://github.com/Samourai-Wallet)** | **[Blue Wallet](https://github.com/Bluewallet)**|
 | [BIP support](./Legend.md#BIP-support) | TBW | | | | |
-| [Lightning Enabled](./Legend.md#Lightning-Enabled)             | Yes                          |         |||Yes| 
+| [Lightning Enabled](./Legend.md#Lightning-Enabled)             | Yes                          |No       |||Yes| 
 | [Coinjoin mixing vulnerability](./Legend.md#Coinjoin-mixing-vulnerability)  | No|No| cancels itself out if done consecutively and leaks private data| no such vulnerability present|No|

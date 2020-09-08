@@ -40,6 +40,9 @@ Copyleft software licenses are considered protective or reciprocal in contrast w
 #### Coordinator to be trusted
 Do we need to trust a centralised authority like coordinator somewhere in the process of starting, using or quitting the service of the wallet?
 
+#### Devices
+The availability on distinctive devices and operating systems
+
 #### Bitcoin Core Node
 Which bitcoin Core node on your own system will be installed and used?  
 Either a DIY installed node, Nodl, Raspiblitz, Embassy, MyNode or via Electrum Personal Server (or similar).  
