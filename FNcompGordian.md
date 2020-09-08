@@ -17,7 +17,8 @@ The general idea is `multisig` is by far the most secure way to use bitcoin, bot
 Except for Gordian Wallet, which also keeps keys for Decentralised IDs.
 
 ## Developers (have) the same (background)
-GW and FN are developed by the one and only developer `@Fonta1n3`. Wasabi and Samourai are both CoinJoin forks. Developers have their background
+GW and FN are developed by the one and only developer `@Fonta1n3`. Wasabi and Samourai are both CoinJoin derivates. Developers of Wasabi and Samourai know eachother very well. They have their mutual background and dito rivalry.
+
 ## Hardware Wallet Interface
 Our comparison here keeps the discussion lean about Hardware Wallets. An extensive list can be found on github [here](https://github.com/bitcoin-core/HWI)
 
