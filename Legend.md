@@ -8,7 +8,7 @@
 ### Definitions
 
 - FN : Fully Noded app
-- FN2 : Fully Noded 2 app, new name is Gordian Wallet, The original name FN2 was a misnaming because it is a different app than FN from its inception. [This comparison](./Docs/FN2_Comparison.md) tries to explain the differences between Fully Noded and Gordian Wallet. 
+- GW : Gordian Wallet, formerly `Fully Noded 2` app, The original name FN2 was a misnaming because it is a different app than FN from its inception. [This comparison](./Docs/FN2_Comparison.md) tries to explain the differences between Fully Noded and Gordian Wallet. 
 - signed raw transaction : [Wikipage](https://en.bitcoin.it/wiki/Raw_Transactions) explains it all
 - Bitcoin-cli: Bitcoin *CommandLine Interface*; just like Bitcoin Core app the CLI uses RPC calls to give your node and the bitcoin network commands and get results back.
 - Bitcoin Core (Wallet) App, also known as `Bitcoin-qt`: Software running on MacOS, Windows and Linux that offers a **Graphical User Interface** to your Bitcoin Wallet and, if you wish, to your node. Just like Bitcoin CLI the Core app uses RPC calls to give your node and the bitcoin network commands and get results back.
@@ -39,32 +39,6 @@
 
 - EPS : TBW
 - CoinJoin : CoinJoin is a trustless method for combining multiple Bitcoin payments from multiple spenders into a single transaction to make it more difficult for outside parties to determine which spender paid which recipient or recipients. More on [wikipedia](https://en.bitcoin.it/wiki/CoinJoin)
-
-## Knowledge you should be confidently applying
-- The definitions above
-- Output Descriptors : https://github.com/bitcoin/bitcoin/blob/master/doc/descriptors.md
-- BIP32, BIP39, BIP44, BIP47, BIP49, BIP84, BIP174
-- derivation paths, keypools
-## Actions you should be comfortable with
-- Amend knowledge and keep existing knowledge up to date
-- recover from a seed
-- sweep to a new wallet
-- use bitcoin-cli
-- install, sync, start and stop your own full node
-- connect your TOR V3
-
-
-# Jump table to categories
-1. [General](#General)
-2. [Standup](#Standup)
-3. [Userinterface](#Userinterface)
-4. [Import](#Import)
-5. [Export](#Export)
-6. [Wallets](#Wallets)
-7. [Connection](#Connection)
-8. [Transactions](#Transactions)
-9. [Optional feature to compare](#Optional-feature-to-compare-(not-yet-listed!))
-
 
 ### General
 
@@ -119,9 +93,11 @@ What was the explicit intial idea to start the project?
 #### Utilizes 2FA
 Two-factor authentication (also known as 2FA) is a type, or subset, of multi-factor authentication. It is a method of confirming users' claimed identities by using a combination of two different factors. Does the wallet support 2FA? Which types of 2FA (like Google, Apple, Yubi, ....)?
 #### Cloud integration
-Like iCloud, DropBox, etc....
+Like iCloud, DropBox, etc....<br/>
+GW has iCloud sync and sign in with apple, FN does not
+
 #### Account xprv can be synced to cloud service
-TBW
+GW is account based it only signs with account xprv, FN keeps your master seed to sign with.
 #### Does accounting
 TBW
 #### Buy and sell bitcoin
