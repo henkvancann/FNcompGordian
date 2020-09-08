@@ -1,16 +1,9 @@
 # **Legend of Features / Topics**
 
-## Jump table to categories
-1. [General](#General)
-2. [Definitions](#Definitions)
-3. [Userinterface](#Userinterface)
-4. [Import](#Import)
-5. [Export](#Export)
-6. [Wallets](#Wallets)
-7. [Connection](#Connection)
-8. [Transactions](#Transactions)
-9. [Optional feature to compare](#Optional-feature-to-compare-(not-yet-listed!))
-
+## Jump table to categories 
+1. [Definitions](#Definitions)
+2. [General](#General)
+3. [Optional feature to compare](#Optional-feature-to-compare-(not-yet-listed!))
 
 ### Definitions
 
