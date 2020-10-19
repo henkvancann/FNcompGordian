@@ -38,7 +38,7 @@ The holy grail of bitcoin secure storage is multisig and not having to rely on o
 Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet says 'Coming soon' as of Aug 2020, which Samourai stated in 2018 already....)
 
 
-# Differences and simularities matrix
+# Differences and similarities matrix
 
 | Feature / topic                  | Fully Noded                             | Gordian Wallet                       | Wasabi Wallet                           | Samourai Wallet                           | Blue Wallet   | Specter Wallet   |
 | ---------------------------------| ----------------------------------------| -------------------------------------| -----------------------------------| ----------------------------------------| ---------------------------|---------------------------|
