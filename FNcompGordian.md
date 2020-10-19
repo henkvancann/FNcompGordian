@@ -87,4 +87,3 @@ Blue Wallet, Wasabi and Samourai are not yet capable of mutli-sign (Blue Wallet 
 | [BIP support](./Legend.md#BIP-support) | TBW | | | | ||
 | [Lightning Enabled](./Legend.md#Lightning-Enabled)             | Yes                          |No       |||Yes| No |
 | [Coinjoin mixing vulnerability](./Legend.md#Coinjoin-mixing-vulnerability)  | No|No| cancels itself out if done consecutively and leaks private data| no such vulnerability present|No|No|
-|
