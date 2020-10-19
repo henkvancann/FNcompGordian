@@ -1,7 +1,7 @@
 # ALWAYS UNDER CONSTRUCTION!! BECAUSE WALLETS CHANGE EVERY WEEK.
 # Comparison FN and Gordian Wallet against other bitcoin-only wallets
 
-**A comparison of the differences and similarities of [Fully Noded](https://github.com/Fonta1n3/FullyNoded)**, **[Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)** formerly known as FN2, **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)**, **[Samourai](https://github.com/Samourai-Wallet)** and **[Blue Wallet](https://github.com/Bluewallet)**.
+**A comparison of the differences and similarities of [Fully Noded](https://github.com/Fonta1n3/FullyNoded)**, **[Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)** formerly known as FN2, **[Wasabi](https://github.com/zkSNACKs/WalletWasabi)**, **[Samourai](https://github.com/Samourai-Wallet)**, **[Blue Wallet](https://github.com/Bluewallet)** and **[Specter Wallet](https://github.com/cryptoadvance/specter-desktop)**.
 
 ### Exoplanation of features to compare
 See our [Legend](./Legend.md).
