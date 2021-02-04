@@ -9,7 +9,7 @@ This mini project offers **a comparison of the differences and similarities of [
  - Node connections
  - Hardware wallet integration
  - Technical stuff
- - TEST HENK
+ - TEST JUAN
 
 [TO THE COMPARISON TABLE](./FNcompGordian.md)
 
