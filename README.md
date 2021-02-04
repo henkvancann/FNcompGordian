@@ -9,15 +9,19 @@ This mini project offers **a comparison of the differences and similarities of [
  - Node connections
  - Hardware wallet integration
  - Technical stuff
+ - TEST HENK
 
 [TO THE COMPARISON TABLE](./FNcompGordian.md)
 
 ## Why relevant?
-FN was first. Then BlockchainCommons and @Fonta1n3 invented a spin-off, which is now called Gordian Wallet.<br/>
+FN was first. Then BlockchainCommons and @Fonta1n3 invented a spin-off, which is now called Gordian Wallet.
+
 And Samourai Wallet and Wasabi Wallet are two other competing wallets to benchmark against.
 
 ## Naming
-The names used to be very similar, FN and FN2, but their objectives were always different, which gratefully led to a divergent naming, July 2020: *Fully Noded* versus *Gordian Wallet* <br/>
+The names used to be very similar, FN and FN2, but their objectives were always different, which gratefully led to a divergent naming, July 2020: *Fully Noded* versus *Gordian Wallet* 
+
+
 The creator of FullyNoded, @Fonta1n3, develops and maintains both iOS apps. Gordian Wallet and Fully Noded.
 
 ## Objective?
